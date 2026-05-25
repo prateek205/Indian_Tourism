@@ -64,9 +64,9 @@ const Destination = () => {
                 className="w-full h-full object-cover hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/20"></div>
-              <div className="absolute bottom-5 left-5 z-50 flex flex-col gap-5">
+              <div className="absolute bottom-5 left-5 z-10 flex flex-col gap-5">
                 <h1 className="text-4xl text-white font-bold">{item.title}</h1>
-                <button className=" bg-white/20 backdrop:blur-3xl px-3 py-2 rounded-full hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
+                <button className=" bg-white/30 backdrop-blur-3xl px-3 py-2 rounded-full hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
                   Explore Now
                 </button>
               </div>
