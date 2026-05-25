@@ -3,10 +3,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import tourism from "../data/db.js";
+import tourismData from "../data/db";
 
 const Hero = () => {
   const [activeTitle, setActiveTitle] = useState("Assam Tourism");
+
+  const tourism = tourismData.filter((item) => {
+    return item.type === "tourism";
+  });
 
   return (
     <section className="relative w-full h-screen overflow-hidden">
@@ -17,7 +21,7 @@ const Hero = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        loop={true}
+        loop={tourism.length > 1}
         pagination={{ clickable: true }}
         className="h-screen"
         onSlideChange={(swiper) => {

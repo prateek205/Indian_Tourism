@@ -1,44 +1,10 @@
 import React from "react";
+import tourismData from "../data/db.js";
 
 const Destination = () => {
-  const category = [
-    {
-      id: 18,
-      title: "Mountain",
-      image:
-        "https://images.unsplash.com/photo-1741836315165-89e7dfd61613?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdW50YWluJTIwaW4lMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 19,
-      title: "Beach",
-      image:
-        "https://images.unsplash.com/photo-1559671888-af88d0c275bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYWNoJTIwaW4lMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 20,
-      title: "Spiritual",
-      image:
-        "https://plus.unsplash.com/premium_photo-1697730355701-06a022eb69cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHNwaXJpdHVhbCUyMGluJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D",
-    },
-    {
-      id: 21,
-      title: "WildLife",
-      image:
-        "https://images.unsplash.com/photo-1589657429197-ecba47e3acd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbGRsaWZlJTIwaW4lMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-      id: 22,
-      title: "Adventure",
-      image:
-        "https://images.unsplash.com/photo-1769963608832-cc25836772e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFkdmVudHVyZSUyMGluJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D",
-    },
-    {
-      id: 23,
-      title: "Heritage",
-      image:
-        "https://plus.unsplash.com/premium_photo-1661904509551-6570836702e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVyaXRhZ2UlMjBpbiUyMGluZGlhfGVufDB8fDB8fHww",
-    },
-  ];
+  const category = tourismData.filter((item) => {
+   return item.type === "category";
+  });
 
   return (
     <section className="p-5">

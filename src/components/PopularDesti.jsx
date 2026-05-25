@@ -1,70 +1,16 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-
 import { FaLocationDot, FaStar } from "react-icons/fa6";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import tourismData from "../data/db";
 
 const PopularDesti = () => {
-  const destination = [
-    {
-      id: 24,
-      location: "Jammu & Kashmir",
-      heading: "Kashmir",
-      image:
-        "https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?w=600&auto=format&fit=crop&q=60",
-      rating: "4.9",
-    },
-
-    {
-      id: 25,
-      location: "Western India",
-      heading: "Goa",
-      image:
-        "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600&auto=format&fit=crop&q=60",
-      rating: "4.2",
-    },
-
-    {
-      id: 26,
-      location: "South India",
-      heading: "Kerala",
-      image: "https://images.unsplash.com/photo-1519046904884-53103b34b206",
-      rating: "4.6",
-    },
-
-    {
-      id: 27,
-      heading: "Rajasthan",
-      location: "Northwest India",
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245",
-      rating: "4.7",
-    },
-
-    {
-      id: 28,
-      heading: "Meghalaya",
-      location: "Northeast India",
-      image:
-        "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600&auto=format&fit=crop&q=60",
-      rating: "4.8",
-    },
-
-    {
-      id: 29,
-      heading: "Varanasi",
-      location: "Uttar Pradesh",
-      image:
-        "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600&auto=format&fit=crop&q=60",
-      rating: "4.6",
-    },
-  ];
-
-
+  const destination = tourismData.filter((item) => {
+    return item.type === "destination";
+  });
 
   return (
     <section className="w-full bg-gray-900 text-white py-20 px-5 md:px-16 overflow-hidden">
@@ -86,7 +32,7 @@ const PopularDesti = () => {
         modules={[Autoplay, Navigation, Pagination]}
         spaceBetween={30}
         slidesPerView={1}
-        loop={true}
+        loop={false}
         navigation={false}
         pagination={{ clickable: false }}
         autoplay={{

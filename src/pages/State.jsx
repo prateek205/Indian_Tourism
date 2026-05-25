@@ -1,77 +1,17 @@
 import React, { useState } from "react";
 import { FaFilter } from "react-icons/fa6";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import tourismData from "../data/db";
 
 const State = () => {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
-  const india = [
-    {
-      id: 8,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/5464304/",
-      heading: "Maharashtra",
-    },
-    {
-      id: 9,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/27052515/",
-      heading: "Rajasthan",
-    },
-    {
-      id: 10,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/35097638/",
-      heading: "Kerala",
-    },
-    {
-      id: 11,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/37263626/",
-      heading: "Odisha",
-    },
-    {
-      id: 12,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/34396879/",
-      heading: "Uttarakhand",
-    },
-    {
-      id: 13,
-      category: "States",
-      vid: "https://www.pexels.com/download/video/36954689/",
-      heading: "Madhya-Pradesh",
-    },
-    {
-      id: 14,
-      category: "Union-Teritory",
-      vid: "https://www.pexels.com/download/video/31454292/",
-      heading: "Andaman & Nicobar",
-    },
-    {
-      id: 15,
-      category: "Union-Teritory",
-      vid: "https://www.pexels.com/download/video/20794146/",
-      heading: "Delhi",
-    },
-    {
-      id: 16,
-      category: "Union-Teritory",
-      vid: "https://www.pexels.com/download/video/37256227/",
-      heading: "Jammu & Kashmir",
-    },
-    {
-      id: 17,
-      category: "Union-Teritory",
-      vid: "https://www.pexels.com/download/video/17982168/",
-      heading: "Ladakh",
-    },
-  ];
-
   // Filter Data
-  const filterData = india.filter((item) =>
-    item.heading.toLowerCase().includes(search.toLowerCase()),
+  const filterData = tourismData.filter(
+    (item) =>
+      item.type === "india" &&
+      item.heading.toLowerCase().includes(search.toLowerCase()),
   );
 
   return (
