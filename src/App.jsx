@@ -5,6 +5,7 @@ import State from "./pages/State";
 import Category from "./pages/Category";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
+import DetailPage from "./pages/DetailPage";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/state" element={<State />} />
         <Route path="/category" element={<Category />} />
         <Route path="/about" element={<About />} />
+        <Route path="/details/:id" element={<DetailPage/>}/>
       </Routes>
     </>
   );

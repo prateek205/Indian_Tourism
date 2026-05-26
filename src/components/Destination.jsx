@@ -1,10 +1,9 @@
 import React from "react";
 import tourismData from "../data/db.js";
+import { Link } from "react-router-dom";
 
 const Destination = () => {
-  const category = tourismData.filter((item) => {
-   return item.type === "category";
-  });
+  const category = tourismData.category
 
   return (
     <section className="p-5">
@@ -32,9 +31,11 @@ const Destination = () => {
               <div className="absolute inset-0 bg-black/20"></div>
               <div className="absolute bottom-5 left-5 z-10 flex flex-col gap-5">
                 <h1 className="text-4xl text-white font-bold">{item.title}</h1>
-                <button className=" bg-white/30 backdrop-blur-3xl px-3 py-2 rounded-full hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
-                  Explore Now
-                </button>
+                <Link to={`/details/${item.id}`}>
+                  <button className=" bg-white/30 backdrop-blur-3xl px-3 py-2 rounded-full hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
+                    Explore Now
+                  </button>
+                </Link>
               </div>
             </div>
           );

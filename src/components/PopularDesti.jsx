@@ -6,11 +6,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import tourismData from "../data/db";
+import { Link } from "react-router-dom";
 
 const PopularDesti = () => {
-  const destination = tourismData.filter((item) => {
-    return item.type === "destination";
-  });
+  const destination = tourismData.category;
 
   return (
     <section className="w-full bg-gray-900 text-white py-20 px-5 md:px-16 overflow-hidden">
@@ -36,7 +35,7 @@ const PopularDesti = () => {
         navigation={false}
         pagination={{ clickable: false }}
         autoplay={{
-          delay: 1000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -86,7 +85,7 @@ const PopularDesti = () => {
 
                   {/* Title */}
                   <h1 className="text-4xl md:text-5xl font-bold text-white">
-                    {item.heading}
+                    {item.title}
                   </h1>
 
                   {/* Description */}
@@ -96,9 +95,11 @@ const PopularDesti = () => {
                   </p>
 
                   {/* Button */}
-                  <button className="w-fit mt-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
-                    Explore Now
-                  </button>
+                  <Link to={`/details/${item.id}`}>
+                    <button className="w-fit mt-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
+                      Explore Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
