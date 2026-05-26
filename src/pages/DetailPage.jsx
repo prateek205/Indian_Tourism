@@ -12,26 +12,26 @@ const DetailPage = () => {
     ...tourismData.india,
   ];
 
-  const details = data.find((item) => item.id === id);
+  const detail = data.find((item) => item.id === Number(id));
 
   return (
-    <section className="w-full h-screen">
-      {details.image ? (
-        <img
-          src={details.image}
-          alt=""
-          className="w-full h-full object-cover"
-        />
+    <section className="relative w-full h-screen overflow-hidden">
+      <div className="absolute inset-0 z-50 bg-black/50"></div>
+      {detail.image ? (
+        <img src={detail.image} alt="" className="w-full h-1/2 object-cover" />
       ) : (
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="w-full h-full object-cover"
-          src={details.video}
+          className="w-full h-[500px] object-cover"
+          src={detail.details.videos}
         ></video>
       )}
+      <div className="absolute top-96 left-5 z-20 text-white text-8xl">
+        {detail.title || detail.heading}
+      </div>
     </section>
   );
 };

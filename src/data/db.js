@@ -439,6 +439,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/5464304/",
 
       details: {
+        videos:"https://www.pexels.com/download/video/4460335/",
         description:
           "Maharashtra is famous for forts, beaches, and Mumbai city.",
         famousPlaces: ["Mumbai", "Pune", "Mahabaleshwar"],
@@ -455,6 +456,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/27052515/",
 
       details: {
+        videos:"https://www.pexels.com/download/video/37465315/",
         description: "Rajasthan is known for palaces and desert culture.",
         famousPlaces: ["Jaipur", "Jaisalmer"],
         bestTime: "November to February",
@@ -470,6 +472,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/35097638/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/29041047/",
         description: "Kerala is famous for greenery and backwaters.",
         famousPlaces: ["Munnar", "Alleppey"],
         bestTime: "September to March",
@@ -481,15 +484,17 @@ const tourismData = {
     {
       id: 23,
       category: "States",
-      heading: "Odisha",
-      video: "https://www.pexels.com/download/video/37263626/",
+      heading: "West Bengal",
+      video: "https://www.pexels.com/download/video/27425487/",
 
       details: {
-        description: "Odisha is known for temples and coastal beauty.",
-        famousPlaces: ["Puri", "Konark"],
-        bestTime: "October to February",
-        food: ["Dalma", "Rasgulla"],
-        activities: ["Temple Visit", "Beach Tourism"],
+        videos:"https://www.pexels.com/download/video/33713348/",
+        description:
+          "West Bengal is famous for its cultural heritage, hill stations, and beautiful beaches.",
+        famousPlaces: ["Kolkata", "Darjeeling"],
+        bestTime: "October to March",
+        food: ["Rosogolla", "Macher Jhol"],
+        activities: ["Heritage Tourism", "Tea Garden Visit"],
       },
     },
 
@@ -500,6 +505,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/34396879/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/20594056/",
         description: "Uttarakhand is famous for mountains and spirituality.",
         famousPlaces: ["Nainital", "Rishikesh"],
         bestTime: "March to June",
@@ -511,15 +517,17 @@ const tourismData = {
     {
       id: 25,
       category: "States",
-      heading: "Madhya Pradesh",
-      video: "https://www.pexels.com/download/video/36954689/",
+      heading: "Himachal Pradesh",
+      video: "https://www.pexels.com/download/video/29979281/",
 
       details: {
-        description: "Madhya Pradesh is known for wildlife and heritage sites.",
-        famousPlaces: ["Khajuraho", "Kanha"],
-        bestTime: "October to March",
-        food: ["Poha", "Bhutte Ka Kees"],
-        activities: ["Safari", "Historical Tour"],
+        videos: "https://www.pexels.com/download/video/18917999/",
+        description:
+          "Himachal Pradesh is famous for snow-covered mountains, hill stations, and adventure tourism.",
+        famousPlaces: ["Shimla", "Manali", "Dharamshala", "Spiti Valley"],
+        bestTime: "March to June and December to February",
+        food: ["Siddu", "Madra", "Thukpa"],
+        activities: ["Trekking", "River Rafting", "Camping", "Skiing"],
       },
     },
 
@@ -530,6 +538,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/31454292/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/6198159/",
         description: "Andaman is famous for beaches and marine adventure.",
         famousPlaces: ["Havelock Island", "Cellular Jail"],
         bestTime: "October to May",
@@ -545,6 +554,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/20794146/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/6590599/",
         description: "Delhi blends history, culture, and modern lifestyle.",
         famousPlaces: ["India Gate", "Red Fort"],
         bestTime: "October to March",
@@ -560,6 +570,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/37256227/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/10760752/",
         description: "Jammu & Kashmir is famous for valleys and snowfall.",
         famousPlaces: ["Srinagar", "Gulmarg"],
         bestTime: "March to October",
@@ -575,6 +586,7 @@ const tourismData = {
       video: "https://www.pexels.com/download/video/17982168/",
 
       details: {
+        videos: "https://www.pexels.com/download/video/19079020/",
         description:
           "Ladakh is known for mountains, monasteries, and bike trips.",
         famousPlaces: ["Pangong Lake", "Leh Palace"],

@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { FaFilter } from "react-icons/fa6";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import tourismData from "../data/db";
+import { Link } from "react-router-dom";
 
 const State = () => {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
   // Filter Data
-  const filterData = tourismData.filter(
+  const filterData = tourismData.india.filter(
     (item) =>
-      item.type === "india" &&
+      tourismData.india &&
       item.heading.toLowerCase().includes(search.toLowerCase()),
   );
 
@@ -86,7 +87,7 @@ const State = () => {
             >
               {/* Video */}
               <video
-                src={item.vid}
+                src={item.video}
                 autoPlay
                 muted
                 loop
@@ -106,10 +107,11 @@ const State = () => {
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                   {item.heading}
                 </h1>
-
-                <button className="mt-4 px-5 py-2 border border-white rounded-full hover:bg-white hover:text-black duration-300">
-                  Explore
-                </button>
+                <Link to={`/details/${item.id}`}>
+                  <button className="mt-4 px-5 py-2 border border-white rounded-full hover:bg-white hover:text-black duration-300">
+                    Explore
+                  </button>
+                </Link>
               </div>
             </div>
           );
