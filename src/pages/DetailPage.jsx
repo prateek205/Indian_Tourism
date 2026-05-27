@@ -15,8 +15,8 @@ const DetailPage = () => {
   const detail = data.find((item) => item.id === Number(id));
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
-      <div className="absolute inset-0 z-50 bg-black/50"></div>
+    <section className="relative w-full h-screen">
+      <div className="absolute inset-0 z-10 bg-black/50"></div>
       {detail.image ? (
         <img src={detail.image} alt="" className="w-full h-1/2 object-cover" />
       ) : (
