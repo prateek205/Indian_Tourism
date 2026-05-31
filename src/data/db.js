@@ -1646,13 +1646,71 @@ const tourismData = {
         description:
           "Diwali, the Festival of Lights, celebrates the victory of light over darkness.",
 
-        famousPlaces: ["Ayodhya", "Varanasi", "Jaipur"],
+        famousPlaces: [
+          {
+            name: "Ayodhya",
+            image:
+              "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600",
+            description:
+              "Ayodhya is beautifully illuminated during Diwali celebrations.",
+          },
+          {
+            name: "Varanasi",
+            image:
+              "https://images.unsplash.com/photo-1561361058-c24cec75577d?w=600",
+            description: "Famous for grand Ganga Aarti and thousands of diyas.",
+          },
+          {
+            name: "Jaipur",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+            description: "Known for colorful lights and festive decorations.",
+          },
+        ],
 
         bestTime: "October - November",
 
-        food: ["Laddu", "Kaju Katli", "Chakli"],
+        food: [
+          {
+            name: "Laddu",
+            image:
+              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+            description: "A traditional sweet enjoyed during Diwali.",
+          },
+          {
+            name: "Kaju Katli",
+            image:
+              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+            description: "Popular cashew-based festive sweet.",
+          },
+          {
+            name: "Chakli",
+            image:
+              "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600",
+            description: "Crunchy savory snack prepared during Diwali.",
+          },
+        ],
 
-        activities: ["Fireworks", "Temple Visit", "Decoration"],
+        activities: [
+          {
+            name: "Fireworks",
+            image:
+              "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600",
+            description: "People celebrate with colorful fireworks displays.",
+          },
+          {
+            name: "Temple Visit",
+            image:
+              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+            description: "Families visit temples and perform prayers.",
+          },
+          {
+            name: "Decoration",
+            image:
+              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+            description: "Homes are decorated with diyas and rangoli.",
+          },
+        ],
       },
     },
 
@@ -1666,15 +1724,74 @@ const tourismData = {
 
       details: {
         description:
-          "Holi is the festival of colors celebrated with joy and enthusiasm.",
+          "Holi is the vibrant Festival of Colors celebrated across India with joy, music, dance, and traditional sweets. It marks the arrival of spring and the victory of good over evil.",
 
-        famousPlaces: ["Mathura", "Vrindavan", "Barsana"],
+        famousPlaces: [
+          {
+            name: "Mathura",
+            image:
+              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+            description:
+              "Birthplace of Lord Krishna and one of the most famous places to celebrate Holi.",
+          },
+          {
+            name: "Vrindavan",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            description:
+              "Known for week-long Holi celebrations in temples and streets.",
+          },
+          {
+            name: "Barsana",
+            image:
+              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=600",
+            description:
+              "Famous for Lathmar Holi where women playfully hit men with sticks.",
+          },
+        ],
 
         bestTime: "March",
 
-        food: ["Gujiya", "Thandai"],
+        food: [
+          {
+            name: "Gujiya",
+            image:
+              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+            description:
+              "A sweet dumpling filled with khoya, dry fruits, and coconut.",
+          },
+          {
+            name: "Thandai",
+            image:
+              "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600",
+            description:
+              "Traditional milk-based festive drink enjoyed during Holi.",
+          },
+        ],
 
-        activities: ["Color Celebration", "Music", "Dance"],
+        activities: [
+          {
+            name: "Color Celebration",
+            image:
+              "https://images.unsplash.com/photo-1552083375-1447ce886485?w=600",
+            description:
+              "People throw colorful powders and celebrate together.",
+          },
+          {
+            name: "Music & Dance",
+            image:
+              "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+            description:
+              "Festive gatherings feature music, dance, and cultural performances.",
+          },
+          {
+            name: "Community Gatherings",
+            image:
+              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+            description:
+              "Families and friends come together to celebrate unity and happiness.",
+          },
+        ],
       },
     },
 
@@ -1688,15 +1805,66 @@ const tourismData = {
 
       details: {
         description:
-          "Durga Puja is the grand celebration of Goddess Durga in West Bengal.",
+          "Durga Puja is the grand celebration of Goddess Durga, symbolizing the victory of good over evil. It is one of the biggest festivals in India, especially in West Bengal.",
 
-        famousPlaces: ["Kolkata", "Howrah"],
+        famousPlaces: [
+          {
+            name: "Kolkata",
+            image:
+              "https://images.unsplash.com/photo-1536421469767-80559bb6f5e1?w=600",
+            description:
+              "The heart of Durga Puja celebrations with magnificent pandals and cultural events.",
+          },
+          {
+            name: "Howrah",
+            image:
+              "https://images.unsplash.com/photo-1583396618422-1d5f5e38b8a8?w=600",
+            description:
+              "Known for traditional Durga Puja festivities and community celebrations.",
+          },
+        ],
 
         bestTime: "September - October",
 
-        food: ["Khichuri", "Rosogolla"],
+        food: [
+          {
+            name: "Khichuri",
+            image:
+              "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600",
+            description:
+              "Traditional bhog offered to devotees during Durga Puja.",
+          },
+          {
+            name: "Rosogolla",
+            image:
+              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+            description: "A famous Bengali sweet enjoyed during the festival.",
+          },
+        ],
 
-        activities: ["Pandal Hopping", "Cultural Programs"],
+        activities: [
+          {
+            name: "Pandal Hopping",
+            image:
+              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+            description:
+              "Visitors explore beautifully themed Durga Puja pandals across the city.",
+          },
+          {
+            name: "Cultural Programs",
+            image:
+              "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600",
+            description:
+              "Music, dance, drama, and cultural performances are organized throughout the festival.",
+          },
+          {
+            name: "Sindoor Khela",
+            image:
+              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+            description:
+              "A traditional ritual where married women apply vermilion to each other on the last day.",
+          },
+        ],
       },
     },
 
@@ -1709,15 +1877,57 @@ const tourismData = {
         "https://images.pexels.com/photos/30184142/pexels-photo-30184142.jpeg",
 
       details: {
-        description: "Ganesh Chaturthi celebrates the birth of Lord Ganesha.",
+        description:
+          "Ganesh Chaturthi celebrates the birth of Lord Ganesha with devotion and grand processions.",
 
-        famousPlaces: ["Mumbai", "Pune"],
+        famousPlaces: [
+          {
+            name: "Mumbai",
+            image:
+              "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=600",
+            description:
+              "Mumbai hosts the most famous Ganesh Chaturthi celebrations.",
+          },
+          {
+            name: "Pune",
+            image:
+              "https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600",
+            description:
+              "Known for traditional and cultural Ganesh festivities.",
+          },
+        ],
 
         bestTime: "August - September",
 
-        food: ["Modak", "Puran Poli"],
+        food: [
+          {
+            name: "Modak",
+            image:
+              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+            description: "Lord Ganesha's favorite sweet.",
+          },
+          {
+            name: "Puran Poli",
+            image:
+              "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600",
+            description: "Traditional Maharashtrian festive delicacy.",
+          },
+        ],
 
-        activities: ["Ganesh Visarjan", "Temple Visit"],
+        activities: [
+          {
+            name: "Ganesh Visarjan",
+            image:
+              "https://images.unsplash.com/photo-1567591414240-e9c1c0f5eec6?w=600",
+            description: "Grand immersion processions of Lord Ganesha idols.",
+          },
+          {
+            name: "Temple Visit",
+            image:
+              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+            description: "Devotees visit temples and seek blessings.",
+          },
+        ],
       },
     },
 
@@ -1731,15 +1941,61 @@ const tourismData = {
 
       details: {
         description:
-          "Onam is Kerala's biggest harvest festival celebrated with traditional events.",
+          "Onam is Kerala's harvest festival celebrated with feasts, boat races, and cultural traditions.",
 
-        famousPlaces: ["Kochi", "Alleppey", "Thrissur"],
+        famousPlaces: [
+          {
+            name: "Kochi",
+            image:
+              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+            description: "Major cultural celebrations during Onam.",
+          },
+          {
+            name: "Alleppey",
+            image:
+              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+            description: "Famous for traditional snake boat races.",
+          },
+          {
+            name: "Thrissur",
+            image:
+              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+            description: "Known for cultural events and festive celebrations.",
+          },
+        ],
 
         bestTime: "August - September",
 
-        food: ["Onam Sadya", "Payasam"],
+        food: [
+          {
+            name: "Onam Sadya",
+            image:
+              "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600",
+            description: "Traditional feast served on banana leaves.",
+          },
+          {
+            name: "Payasam",
+            image:
+              "https://images.unsplash.com/photo-1630409346824-4f0e7b080087?w=600",
+            description: "Popular sweet dessert prepared during Onam.",
+          },
+        ],
 
-        activities: ["Boat Race", "Flower Decoration"],
+        activities: [
+          {
+            name: "Boat Race",
+            image:
+              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+            description:
+              "Traditional snake boat races attract thousands of visitors.",
+          },
+          {
+            name: "Flower Decoration",
+            image:
+              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+            description: "Beautiful floral rangoli known as Pookalam.",
+          },
+        ],
       },
     },
 
@@ -1753,15 +2009,62 @@ const tourismData = {
 
       details: {
         description:
-          "Bihu is the most important festival of Assam celebrating agriculture and prosperity.",
+          "Bihu is Assam's most celebrated festival marking prosperity, harvest, and cultural heritage.",
 
-        famousPlaces: ["Guwahati", "Majuli"],
+        famousPlaces: [
+          {
+            name: "Guwahati",
+            image:
+              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+            description: "Major Bihu celebrations with music and dance.",
+          },
+          {
+            name: "Majuli",
+            image:
+              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+            description:
+              "World's largest river island known for cultural festivities.",
+          },
+        ],
 
         bestTime: "April",
 
-        food: ["Pitha", "Laru"],
+        food: [
+          {
+            name: "Pitha",
+            image:
+              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+            description: "Traditional Assamese rice cake.",
+          },
+          {
+            name: "Laru",
+            image:
+              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+            description: "Popular sweet made during Bihu celebrations.",
+          },
+        ],
 
-        activities: ["Folk Dance", "Music", "Cultural Events"],
+        activities: [
+          {
+            name: "Folk Dance",
+            image:
+              "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600",
+            description: "Traditional Bihu dance performances.",
+          },
+          {
+            name: "Music",
+            image:
+              "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+            description: "Celebrations include traditional Assamese music.",
+          },
+          {
+            name: "Cultural Events",
+            image:
+              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+            description:
+              "Festivals feature community gatherings and performances.",
+          },
+        ],
       },
     },
   ],
