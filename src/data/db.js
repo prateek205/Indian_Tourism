@@ -1110,19 +1110,79 @@ const tourismData = {
           "Mountain destinations in India are famous for snow, trekking, valleys, and scenic beauty.",
 
         famousStates: [
-          "Jammu & Kashmir",
-          "Uttarakhand",
-          "Himachal Pradesh",
-          "Sikkim",
-          "Meghalaya",
+          {
+            name: "Jammu & Kashmir",
+            image:
+              "https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?w=600",
+            description:
+              "Known for Gulmarg, Sonmarg, snow-covered mountains, and breathtaking valleys.",
+          },
+          {
+            name: "Uttarakhand",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description:
+              "Famous for Nainital, Mussoorie, Rishikesh, and Himalayan landscapes.",
+          },
+          {
+            name: "Himachal Pradesh",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+            description:
+              "Popular for Shimla, Manali, snow adventures, and scenic mountain beauty.",
+          },
+          {
+            name: "Sikkim",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+            description:
+              "Home to Kanchenjunga, monasteries, and stunning mountain views.",
+          },
+          {
+            name: "Meghalaya",
+            image:
+              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+            description:
+              "Known for living root bridges, waterfalls, caves, and green hills.",
+          },
         ],
 
         famousPlaces: [
-          "Gulmarg",
-          "Manali",
-          "Nainital",
-          "Darjeeling",
-          "Shillong",
+          {
+            name: "Gulmarg",
+            image:
+              "https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?w=600",
+            description:
+              "A famous ski resort in Jammu & Kashmir known for snow sports and scenic beauty.",
+          },
+          {
+            name: "Manali",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+            description:
+              "A popular hill station offering adventure sports and mountain views.",
+          },
+          {
+            name: "Nainital",
+            image:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+            description:
+              "Known for its beautiful lake, pleasant weather, and surrounding hills.",
+          },
+          {
+            name: "Darjeeling",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description:
+              "Famous for tea gardens, toy train rides, and Himalayan views.",
+          },
+          {
+            name: "Shillong",
+            image:
+              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+            description:
+              "The capital of Meghalaya, known as the Scotland of the East.",
+          },
         ],
 
         bestTime: "March to June",
@@ -1141,19 +1201,75 @@ const tourismData = {
           "Beach destinations offer relaxing coastlines, nightlife, seafood, and water sports.",
 
         famousStates: [
-          "Goa",
-          "Kerala",
-          "Maharashtra",
-          "Andaman & Nicobar",
-          "Tamil Nadu",
+          {
+            name: "Goa",
+            image:
+              "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600",
+            description:
+              "India's most famous beach destination with nightlife and water sports.",
+          },
+          {
+            name: "Kerala",
+            image:
+              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+            description:
+              "Known for beaches, backwaters, houseboats, and natural beauty.",
+          },
+          {
+            name: "Maharashtra",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+            description:
+              "Famous for Juhu Beach, Alibaug, and the Konkan coastline.",
+          },
+          {
+            name: "Andaman & Nicobar",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+            description:
+              "Offers crystal-clear waters, coral reefs, and pristine beaches.",
+          },
+          {
+            name: "Tamil Nadu",
+            image:
+              "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600",
+            description:
+              "Known for Marina Beach and beautiful coastal temples.",
+          },
         ],
 
         famousPlaces: [
-          "Baga Beach",
-          "Marina Beach",
-          "Alleppey",
-          "Juhu Beach",
-          "Havelock Island",
+          {
+            name: "Baga Beach",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+            description:
+              "One of Goa's most popular beaches, known for nightlife and water sports.",
+          },
+          {
+            name: "Marina Beach",
+            image:
+              "https://images.unsplash.com/photo-1559671888-af88d0c275bd?w=600",
+            description: "India's longest urban beach located in Chennai.",
+          },
+          {
+            name: "Alleppey",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600",
+            description: "Known for Kerala backwaters and houseboat cruises.",
+          },
+          {
+            name: "Juhu Beach",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+            description: "A famous beach destination in Mumbai.",
+          },
+          {
+            name: "Havelock Island",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+            description: "Home to Radhanagar Beach and crystal-clear waters.",
+          },
         ],
 
         bestTime: "October to March",
@@ -1173,17 +1289,62 @@ const tourismData = {
           "Spiritual destinations in India are famous for temples, rituals, yoga, and peace.",
 
         famousStates: [
-          "Uttar Pradesh",
-          "Uttarakhand",
-          "Tamil Nadu",
+          {
+            name: "Uttar Pradesh",
+            image:
+              "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600",
+            description:
+              "Home to Varanasi, Ayodhya, and many important pilgrimage sites.",
+          },
+          {
+            name: "Uttarakhand",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            description:
+              "Known for Haridwar, Rishikesh, Kedarnath, and Badrinath.",
+          },
+          {
+            name: "Tamil Nadu",
+            image:
+              "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600",
+            description:
+              "Famous for Meenakshi Temple, Rameswaram, and ancient temples.",
+          },
         ],
 
         famousPlaces: [
-          "Varanasi",
-          "Rishikesh",
-          "Bodh Gaya",
-          "Madurai",
-          "Haridwar",
+          {
+            name: "Varanasi",
+            image:
+              "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600",
+            description:
+              "One of the oldest living cities and a major Hindu pilgrimage site.",
+          },
+          {
+            name: "Rishikesh",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            description: "Known as the Yoga Capital of the World.",
+          },
+          {
+            name: "Bodh Gaya",
+            image:
+              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=600",
+            description:
+              "The place where Gautama Buddha attained enlightenment.",
+          },
+          {
+            name: "Madurai",
+            image:
+              "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600",
+            description: "Famous for the Meenakshi Amman Temple.",
+          },
+          {
+            name: "Haridwar",
+            image:
+              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+            description: "Known for Ganga Aarti and spiritual significance.",
+          },
         ],
 
         bestTime: "October to March",
@@ -1203,20 +1364,83 @@ const tourismData = {
           "Wildlife tourism in India is known for forests, safaris, and rare animal species.",
 
         famousStates: [
-          "Assam",
-          "Maharashtra",
-          "Uttarakhand",
-          "Rajasthan",
-          "Karnataka",
-          "West Bengal",
+          {
+            name: "Assam",
+            image:
+              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+            description:
+              "Home to Kaziranga National Park and one-horned rhinoceroses.",
+          },
+          {
+            name: "Maharashtra",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description: "Known for Tadoba Tiger Reserve and wildlife safaris.",
+          },
+          {
+            name: "Uttarakhand",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+            description:
+              "Famous for Jim Corbett National Park and rich biodiversity.",
+          },
+          {
+            name: "Rajasthan",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+            description:
+              "Known for Ranthambore National Park and tiger safaris.",
+          },
+          {
+            name: "Karnataka",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+            description:
+              "Home to Bandipur National Park and wildlife reserves.",
+          },
+          {
+            name: "West Bengal",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+            description:
+              "Famous for Sundarbans mangrove forests and Royal Bengal Tigers.",
+          },
         ],
 
         famousPlaces: [
-          "Kaziranga",
-          "Ranthambore",
-          "Jim Corbett",
-          "Bandipur",
-          "Sundarbans",
+          {
+            name: "Kaziranga National Park",
+            image:
+              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+            description:
+              "UNESCO World Heritage Site famous for one-horned rhinoceroses.",
+          },
+          {
+            name: "Ranthambore National Park",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+            description:
+              "One of India's best tiger reserves located in Rajasthan.",
+          },
+          {
+            name: "Jim Corbett National Park",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+            description:
+              "India's oldest national park and a major tiger reserve.",
+          },
+          {
+            name: "Bandipur National Park",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+            description: "A major wildlife sanctuary in Karnataka.",
+          },
+          {
+            name: "Sundarbans National Park",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+            description: "Known for mangrove forests and Royal Bengal Tigers.",
+          },
         ],
 
         bestTime: "October to June",
@@ -1241,19 +1465,74 @@ const tourismData = {
           "Adventure tourism includes trekking, rafting, skiing, biking, and outdoor sports.",
 
         famousStates: [
-          "Ladakh",
-          "Uttarakhand",
-          "Himachal Pradesh",
-          "Goa",
-          "Meghalaya",
+          {
+            name: "Ladakh",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description:
+              "A paradise for biking, trekking, camping, and mountain adventures.",
+          },
+          {
+            name: "Uttarakhand",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            description:
+              "Popular for river rafting, trekking, and bungee jumping.",
+          },
+          {
+            name: "Himachal Pradesh",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+            description:
+              "Offers skiing, paragliding, trekking, and mountain adventures.",
+          },
+          {
+            name: "Goa",
+            image:
+              "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600",
+            description:
+              "Known for scuba diving, parasailing, and water sports.",
+          },
+          {
+            name: "Meghalaya",
+            image:
+              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+            description:
+              "Famous for cave exploration, trekking, and adventure tourism.",
+          },
         ],
 
         famousPlaces: [
-          "Leh",
-          "Rishikesh",
-          "Manali",
-          "Bir Billing",
-          "Cherrapunji",
+          {
+            name: "Leh",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description: "A paradise for bikers and adventure enthusiasts.",
+          },
+          {
+            name: "Rishikesh",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            description: "Popular for river rafting and bungee jumping.",
+          },
+          {
+            name: "Manali",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+            description: "Offers skiing, trekking, and paragliding.",
+          },
+          {
+            name: "Bir Billing",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+            description: "World-famous destination for paragliding.",
+          },
+          {
+            name: "Cherrapunji",
+            image:
+              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+            description: "Known for caves, waterfalls, and trekking routes.",
+          },
         ],
 
         bestTime: "March to July",
@@ -1278,19 +1557,75 @@ const tourismData = {
           "Heritage tourism showcases India's forts, palaces, monuments, and historical culture.",
 
         famousStates: [
-          "Rajasthan",
-          "Delhi",
-          "Uttar Pradesh",
-          "Madhya Pradesh",
-          "Karnataka",
+          {
+            name: "Rajasthan",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+            description:
+              "Rajasthan is famous for magnificent forts, royal palaces, and rich cultural heritage.",
+          },
+          {
+            name: "Delhi",
+            image:
+              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f?w=600",
+            description:
+              "Delhi is home to historical monuments like Red Fort, Humayun's Tomb, and Qutub Minar.",
+          },
+          {
+            name: "Uttar Pradesh",
+            image:
+              "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600",
+            description:
+              "Uttar Pradesh is known for the Taj Mahal, Agra Fort, and spiritual heritage.",
+          },
+          {
+            name: "Madhya Pradesh",
+            image:
+              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+            description:
+              "Madhya Pradesh is famous for Khajuraho Temples, Sanchi Stupa, and ancient architecture.",
+          },
+          {
+            name: "Karnataka",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+            description:
+              "Karnataka is renowned for Hampi, Mysore Palace, and historical monuments.",
+          },
         ],
 
         famousPlaces: [
-          "Taj Mahal",
-          "Red Fort",
-          "Hampi",
-          "Khajuraho",
-          "Amer Fort",
+          {
+            name: "Taj Mahal",
+            image:
+              "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600",
+            description:
+              "One of the Seven Wonders of the World located in Agra.",
+          },
+          {
+            name: "Red Fort",
+            image:
+              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f?w=600",
+            description: "A UNESCO World Heritage Site in Delhi.",
+          },
+          {
+            name: "Hampi",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+            description: "Ancient ruins of the Vijayanagara Empire.",
+          },
+          {
+            name: "Khajuraho",
+            image:
+              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+            description: "Known for its magnificent temple architecture.",
+          },
+          {
+            name: "Amer Fort",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+            description: "A majestic fort located in Jaipur, Rajasthan.",
+          },
         ],
 
         bestTime: "October to March",
