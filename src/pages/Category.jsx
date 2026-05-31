@@ -48,7 +48,7 @@ const CategoryPage = () => {
           {tourismData.festival.map((item) => (
             <Link
               key={item.id}
-              to={`/festival/${item.id}`}
+              to={`/festivalDetails/${item.id}`}
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
               <img

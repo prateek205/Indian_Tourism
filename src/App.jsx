@@ -7,6 +7,7 @@ import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import DetailPage from "./pages/DetailPage";
 import CategoryDetail from "./pages/CategoryDetails";
+import FestivalDetail from "./pages/FestivalDetail";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/details/:id" element={<DetailPage/>}/>
         <Route path="/categoryDetails/:title" element={<CategoryDetail/>}/>
+        <Route path="/festivalDetails/:id" element={<FestivalDetail/>}/>
       </Routes>
     </>
   );

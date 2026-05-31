@@ -96,7 +96,7 @@ const Festivals = () => {
                   </p>
 
                   {/* Button */}
-                  <Link to={`/details/${item.id}`}>
+                  <Link to={`/festivalDetails/${item.id}`}>
                     <button className="w-fit mt-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-gradient-to-r from-orange-500 to-orange-300 duration-300">
                       Explore Now
                     </button>
