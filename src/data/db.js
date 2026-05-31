@@ -1176,8 +1176,6 @@ const tourismData = {
           "Uttar Pradesh",
           "Uttarakhand",
           "Tamil Nadu",
-          "Bihar",
-          "Madhya Pradesh",
         ],
 
         famousPlaces: [
@@ -1206,7 +1204,8 @@ const tourismData = {
 
         famousStates: [
           "Assam",
-          "Madhya Pradesh",
+          "Maharashtra",
+          "Uttarakhand",
           "Rajasthan",
           "Karnataka",
           "West Bengal",
@@ -1312,7 +1311,7 @@ const tourismData = {
       state: "Pan India",
       category: ["Culture", "Heritage"],
       image:
-        "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+        "https://images.pexels.com/photos/8887053/pexels-photo-8887053.jpeg",
 
       details: {
         description:
@@ -1334,7 +1333,7 @@ const tourismData = {
       state: "Uttar Pradesh",
       category: ["Culture", "Fun"],
       image:
-        "https://images.unsplash.com/photo-1616840382784-c3f6c3f9c4dd?w=600",
+        "https://images.pexels.com/photos/36684524/pexels-photo-36684524.jpeg",
 
       details: {
         description:
@@ -1356,7 +1355,7 @@ const tourismData = {
       state: "West Bengal",
       category: ["Culture", "Spiritual"],
       image:
-        "https://images.unsplash.com/photo-1630487651321-4c92f9f4a7a6?w=600",
+        "https://images.pexels.com/photos/34283958/pexels-photo-34283958.png",
 
       details: {
         description:
@@ -1378,7 +1377,7 @@ const tourismData = {
       state: "Maharashtra",
       category: ["Spiritual", "Culture"],
       image:
-        "https://images.unsplash.com/photo-1567591414240-e9c1c0f5eec6?w=600",
+        "https://images.pexels.com/photos/30184142/pexels-photo-30184142.jpeg",
 
       details: {
         description: "Ganesh Chaturthi celebrates the birth of Lord Ganesha.",
@@ -1399,7 +1398,7 @@ const tourismData = {
       state: "Kerala",
       category: ["Culture", "Harvest"],
       image:
-        "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+        "https://images.pexels.com/photos/8566097/pexels-photo-8566097.jpeg",
 
       details: {
         description:
@@ -1421,7 +1420,7 @@ const tourismData = {
       state: "Assam",
       category: ["Culture", "Harvest"],
       image:
-        "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+        "https://images.pexels.com/photos/37664912/pexels-photo-37664912.jpeg",
 
       details: {
         description:

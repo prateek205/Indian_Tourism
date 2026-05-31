@@ -20,10 +20,10 @@ const Festivals = () => {
             Popular Festivals
           </h1>
         </div>
-        <Link to="/categoryDetails">
-        <button className="px-7 py-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-300 hover:scale-105 duration-300">
-          View More
-        </button>
+        <Link to="/category">
+          <button className="px-7 py-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-300 hover:scale-105 duration-300">
+            View More
+          </button>
         </Link>
       </div>
 
@@ -54,7 +54,7 @@ const Festivals = () => {
         }}
         className="pb-14"
       >
-        {festivals.slice(0,3).map((item) => {
+        {festivals.slice(0, 3).map((item) => {
           return (
             <SwiperSlide key={item.id}>
               <div className="relative h-[550px] overflow-hidden rounded-[30px] group cursor-pointer">
