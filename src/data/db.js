@@ -1468,35 +1468,35 @@ const tourismData = {
           {
             name: "Ladakh",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+              "https://images.pexels.com/photos/34484892/pexels-photo-34484892.jpeg",
             description:
               "A paradise for biking, trekking, camping, and mountain adventures.",
           },
           {
             name: "Uttarakhand",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+              "https://images.pexels.com/photos/31758766/pexels-photo-31758766.jpeg",
             description:
               "Popular for river rafting, trekking, and bungee jumping.",
           },
           {
             name: "Himachal Pradesh",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+              "https://images.pexels.com/photos/6147968/pexels-photo-6147968.jpeg",
             description:
               "Offers skiing, paragliding, trekking, and mountain adventures.",
           },
           {
             name: "Goa",
             image:
-              "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600",
+              "https://images.pexels.com/photos/1540108/pexels-photo-1540108.jpeg",
             description:
               "Known for scuba diving, parasailing, and water sports.",
           },
           {
             name: "Meghalaya",
             image:
-              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+              "https://images.pexels.com/photos/14585063/pexels-photo-14585063.jpeg",
             description:
               "Famous for cave exploration, trekking, and adventure tourism.",
           },
@@ -1506,31 +1506,25 @@ const tourismData = {
           {
             name: "Leh",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+              "https://images.pexels.com/photos/18009979/pexels-photo-18009979.jpeg",
             description: "A paradise for bikers and adventure enthusiasts.",
           },
           {
             name: "Rishikesh",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+              "https://images.pexels.com/photos/26811613/pexels-photo-26811613.jpeg",
             description: "Popular for river rafting and bungee jumping.",
           },
           {
             name: "Manali",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+              "https://images.pexels.com/photos/11156954/pexels-photo-11156954.jpeg",
             description: "Offers skiing, trekking, and paragliding.",
-          },
-          {
-            name: "Bir Billing",
-            image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
-            description: "World-famous destination for paragliding.",
           },
           {
             name: "Cherrapunji",
             image:
-              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+              "https://images.pexels.com/photos/28656579/pexels-photo-28656579.jpeg",
             description: "Known for caves, waterfalls, and trekking routes.",
           },
         ],
@@ -1567,28 +1561,28 @@ const tourismData = {
           {
             name: "Delhi",
             image:
-              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f?w=600",
+              "https://images.pexels.com/photos/4248537/pexels-photo-4248537.jpeg",
             description:
               "Delhi is home to historical monuments like Red Fort, Humayun's Tomb, and Qutub Minar.",
           },
           {
             name: "Uttar Pradesh",
             image:
-              "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600",
+              "https://images.pexels.com/photos/12446384/pexels-photo-12446384.jpeg",
             description:
               "Uttar Pradesh is known for the Taj Mahal, Agra Fort, and spiritual heritage.",
           },
           {
-            name: "Madhya Pradesh",
+            name: "Maharashtra",
             image:
-              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+              "https://images.pexels.com/photos/29541057/pexels-photo-29541057.jpeg",
             description:
-              "Madhya Pradesh is famous for Khajuraho Temples, Sanchi Stupa, and ancient architecture.",
+              "Maharashtra is famous for Ajantha Ellora Caves, Forts.",
           },
           {
             name: "Karnataka",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+              "https://images.pexels.com/photos/9882016/pexels-photo-9882016.jpeg",
             description:
               "Karnataka is renowned for Hampi, Mysore Palace, and historical monuments.",
           },
@@ -1605,25 +1599,25 @@ const tourismData = {
           {
             name: "Red Fort",
             image:
-              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f?w=600",
+              "https://images.pexels.com/photos/33928936/pexels-photo-33928936.jpeg",
             description: "A UNESCO World Heritage Site in Delhi.",
           },
           {
             name: "Hampi",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+              "https://images.pexels.com/photos/28868115/pexels-photo-28868115.jpeg",
             description: "Ancient ruins of the Vijayanagara Empire.",
           },
           {
-            name: "Khajuraho",
+            name: "Ellora Caves",
             image:
-              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+              "https://images.pexels.com/photos/9455189/pexels-photo-9455189.jpeg",
             description: "Known for its magnificent temple architecture.",
           },
           {
             name: "Amer Fort",
             image:
-              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+              "https://images.pexels.com/photos/33448400/pexels-photo-33448400.jpeg",
             description: "A majestic fort located in Jaipur, Rajasthan.",
           },
         ],

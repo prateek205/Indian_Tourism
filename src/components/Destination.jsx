@@ -35,7 +35,7 @@ const Destination = () => {
             <div className="absolute bottom-5 left-5 z-10 flex flex-col gap-5">
               <h1 className="text-4xl text-white font-bold">{item.title}</h1>
 
-              <Link to={`/category/${item.title}`}>
+              <Link to={`/categoryDetails/${item.title}`}>
                 <button className="bg-white/30 backdrop-blur-md px-4 py-2 rounded-full text-white hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-300 duration-300">
                   Explore Now
                 </button>
