@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import tourismData from "../data/db";
 import { Link } from "react-router-dom";
 
-const PopularDesti = () => {
-  const destination = tourismData.category;
+const Festivals = () => {
+  const festivals = tourismData.festival;
 
   return (
     <section className="w-full bg-gray-900 text-white py-20 px-5 md:px-16 overflow-hidden">
@@ -17,13 +17,14 @@ const PopularDesti = () => {
       <div className="flex flex-col md:flex-row items-center justify-between gap-5 mb-14">
         <div>
           <h1 className="text-4xl md:text-6xl font-bold mt-3 bg-gradient-to-r from-orange-400 to-green-400 bg-clip-text text-transparent">
-            Popular Destinations
+            Popular Festivals
           </h1>
         </div>
-
+        <Link to="/categoryDetails">
         <button className="px-7 py-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-300 hover:scale-105 duration-300">
           View More
         </button>
+        </Link>
       </div>
 
       {/* Swiper */}
@@ -53,7 +54,7 @@ const PopularDesti = () => {
         }}
         className="pb-14"
       >
-        {destination.map((item) => {
+        {festivals.slice(0,3).map((item) => {
           return (
             <SwiperSlide key={item.id}>
               <div className="relative h-[550px] overflow-hidden rounded-[30px] group cursor-pointer">
@@ -80,12 +81,12 @@ const PopularDesti = () => {
                   {/* Location */}
                   <p className="flex items-center gap-2 text-orange-400">
                     <FaLocationDot />
-                    {item.location}
+                    {item.state}
                   </p>
 
                   {/* Title */}
                   <h1 className="text-4xl md:text-5xl font-bold text-white">
-                    {item.title}
+                    {item.heading}
                   </h1>
 
                   {/* Description */}
@@ -110,4 +111,4 @@ const PopularDesti = () => {
   );
 };
 
-export default PopularDesti;
+export default Festivals;

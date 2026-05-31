@@ -8,11 +8,79 @@ const tourismData = {
 
       details: {
         description:
-          "Assam is famous for tea gardens, wildlife sanctuaries, and river landscapes.",
-        famousPlaces: ["Kaziranga National Park", "Majuli", "Guwahati"],
+          "Assam is famous for tea gardens, wildlife sanctuaries, the Brahmaputra River, and rich cultural heritage.",
+
         bestTime: "October to April",
-        food: ["Khar", "Masor Tenga", "Pitha"],
-        activities: ["Safari", "River Cruise", "Tea Garden Visit"],
+
+        famousPlaces: [
+          {
+            name: "Kaziranga National Park",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "A UNESCO World Heritage Site famous for the one-horned rhinoceros and diverse wildlife.",
+          },
+          {
+            name: "Majuli",
+            image:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+            description:
+              "The world's largest river island, known for its monasteries and Assamese culture.",
+          },
+          {
+            name: "Guwahati",
+            image:
+              "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+            description:
+              "The gateway to Northeast India and home to the famous Kamakhya Temple.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Khar",
+            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            description:
+              "A traditional Assamese dish prepared with raw papaya, pulses, and alkaline water.",
+          },
+          {
+            name: "Masor Tenga",
+            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            description:
+              "A light and tangy fish curry, one of Assam's most popular dishes.",
+          },
+          {
+            name: "Pitha",
+            image:
+              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+            description:
+              "A traditional rice cake prepared during Assamese festivals and celebrations.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Wildlife Safari",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "Enjoy jeep and elephant safaris through Kaziranga National Park.",
+          },
+          {
+            name: "River Cruise",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Experience scenic cruises along the mighty Brahmaputra River.",
+          },
+          {
+            name: "Tea Garden Visit",
+            image:
+              "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+            description:
+              "Explore Assam's world-famous tea estates and learn about tea production.",
+          },
+        ],
       },
     },
 
@@ -24,11 +92,79 @@ const tourismData = {
 
       details: {
         description:
-          "Uttar Pradesh is home to spiritual cities and world-famous monuments.",
-        famousPlaces: ["Agra", "Varanasi", "Ayodhya"],
+          "Uttar Pradesh is home to some of India's most sacred cities, historical monuments, and cultural landmarks.",
+
         bestTime: "October to March",
-        food: ["Petha", "Kachori", "Tunday Kabab"],
-        activities: ["Temple Visit", "Historical Tour"],
+
+        famousPlaces: [
+          {
+            name: "Agra",
+            image:
+              "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+            description:
+              "Home to the Taj Mahal, one of the Seven Wonders of the World.",
+          },
+          {
+            name: "Varanasi",
+            image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc",
+            description:
+              "One of the world's oldest living cities, situated on the banks of the Ganges.",
+          },
+          {
+            name: "Ayodhya",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+            description:
+              "A sacred city believed to be the birthplace of Lord Rama.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Petha",
+            image:
+              "https://images.unsplash.com/photo-1482049016688-2d3e1b311543",
+            description:
+              "A famous sweet delicacy from Agra made from ash gourd.",
+          },
+          {
+            name: "Kachori",
+            image:
+              "https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+            description:
+              "A crispy and spicy snack enjoyed throughout the state.",
+          },
+          {
+            name: "Tunday Kabab",
+            image:
+              "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba",
+            description:
+              "A legendary Lucknow specialty known for its soft texture and rich flavors.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Temple Visit",
+            image:
+              "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f",
+            description:
+              "Explore famous temples in Ayodhya, Mathura, and Varanasi.",
+          },
+          {
+            name: "Historical Tour",
+            image:
+              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+            description:
+              "Visit world-famous monuments including the Taj Mahal and Fatehpur Sikri.",
+          },
+          {
+            name: "Ganga Aarti Experience",
+            image: "https://images.unsplash.com/photo-1548013146-72479768bada",
+            description:
+              "Witness the spiritual evening Ganga Aarti at Varanasi Ghats.",
+          },
+        ],
       },
     },
 
@@ -40,11 +176,79 @@ const tourismData = {
 
       details: {
         description:
-          "Rajasthan is known for forts, palaces, desert safaris, and royal culture.",
-        famousPlaces: ["Jaipur", "Jaisalmer", "Udaipur"],
+          "Rajasthan is known for its majestic forts, royal palaces, colorful culture, desert landscapes, and vibrant festivals.",
+
         bestTime: "November to February",
-        food: ["Dal Baati", "Laal Maas", "Ghewar"],
-        activities: ["Camel Safari", "Fort Visit"],
+
+        famousPlaces: [
+          {
+            name: "Jaipur",
+            image:
+              "https://images.unsplash.com/photo-1477587458883-47145ed94245",
+            description:
+              "Known as the Pink City, Jaipur is famous for Amber Fort, Hawa Mahal, and royal heritage.",
+          },
+          {
+            name: "Jaisalmer",
+            image: "https://images.unsplash.com/photo-1518684079-3c830dcef090",
+            description:
+              "The Golden City of India, famous for its desert forts and sand dunes.",
+          },
+          {
+            name: "Udaipur",
+            image:
+              "https://images.unsplash.com/photo-1521295121783-8a321d551ad2",
+            description:
+              "Known as the City of Lakes, Udaipur offers beautiful palaces and scenic waterfront views.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Dal Baati Churma",
+            image:
+              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+            description:
+              "The signature dish of Rajasthan made with baked wheat balls, lentils, and sweet churma.",
+          },
+          {
+            name: "Laal Maas",
+            image: "https://images.unsplash.com/photo-1544025162-d76694265947",
+            description:
+              "A spicy mutton curry prepared with traditional Rajasthani spices.",
+          },
+          {
+            name: "Ghewar",
+            image:
+              "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+            description:
+              "A famous sweet delicacy especially popular during festivals.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Camel Safari",
+            image:
+              "https://images.unsplash.com/photo-1500534623283-312aade485b7",
+            description:
+              "Enjoy a thrilling camel ride through the golden sand dunes of Jaisalmer.",
+          },
+          {
+            name: "Fort Exploration",
+            image:
+              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d",
+            description:
+              "Visit iconic forts such as Mehrangarh, Amer Fort, and Chittorgarh.",
+          },
+          {
+            name: "Cultural Festival Experience",
+            image:
+              "https://images.unsplash.com/photo-1513151233558-d860c5398176",
+            description:
+              "Experience folk dances, music, traditional attire, and local fairs.",
+          },
+        ],
       },
     },
 
@@ -56,11 +260,81 @@ const tourismData = {
 
       details: {
         description:
-          "Maharashtra offers beaches, hill stations, forts, and vibrant cities.",
-        famousPlaces: ["Mumbai", "Lonavala", "Mahabaleshwar"],
+          "Maharashtra is one of India's most diverse states, offering beautiful beaches, historic forts, hill stations, wildlife sanctuaries, and bustling cities like Mumbai.",
+
         bestTime: "October to March",
-        food: ["Vada Pav", "Misal Pav", "Puran Poli"],
-        activities: ["Beach Tourism", "Fort Trekking"],
+
+        famousPlaces: [
+          {
+            name: "Mumbai",
+            image:
+              "https://images.unsplash.com/photo-1570168007204-dfb528c6958f",
+            description:
+              "The financial capital of India, famous for Gateway of India, Marine Drive, and Bollywood.",
+          },
+          {
+            name: "Lonavala",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "A popular hill station known for lush green valleys, waterfalls, and scenic viewpoints.",
+          },
+          {
+            name: "Mahabaleshwar",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+            description:
+              "A picturesque hill station famous for strawberry farms, lakes, and mountain views.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Vada Pav",
+            image:
+              "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+            description:
+              "Known as the burger of Mumbai, Vada Pav is Maharashtra's most famous street food.",
+          },
+          {
+            name: "Misal Pav",
+            image:
+              "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+            description:
+              "A spicy curry made with sprouts, topped with farsan and served with pav.",
+          },
+          {
+            name: "Puran Poli",
+            image:
+              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+            description:
+              "A traditional sweet flatbread stuffed with jaggery and lentils.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Beach Tourism",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+            description:
+              "Explore beautiful beaches like Alibaug, Ganpatipule, Tarkarli, and Kashid.",
+          },
+          {
+            name: "Fort Trekking",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "Trek famous forts like Raigad, Sinhagad, Rajgad, and Pratapgad.",
+          },
+          {
+            name: "Wildlife Safari",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "Visit Tadoba National Park and enjoy thrilling tiger safaris.",
+          },
+        ],
       },
     },
 
@@ -72,11 +346,79 @@ const tourismData = {
 
       details: {
         description:
-          "Jammu & Kashmir is known for snow mountains and scenic valleys.",
-        famousPlaces: ["Srinagar", "Gulmarg", "Pahalgam"],
+          "Jammu & Kashmir is often called 'Paradise on Earth' because of its snow-capped mountains, beautiful valleys, pristine lakes, and breathtaking landscapes.",
+
         bestTime: "March to October",
-        food: ["Rogan Josh", "Kahwa", "Yakhni"],
-        activities: ["Skiing", "Shikara Ride"],
+
+        famousPlaces: [
+          {
+            name: "Srinagar",
+            image:
+              "https://images.unsplash.com/photo-1595815771614-ade5019c1c6f",
+            description:
+              "The summer capital of Jammu & Kashmir, famous for Dal Lake, Mughal Gardens, and houseboats.",
+          },
+          {
+            name: "Gulmarg",
+            image:
+              "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+            description:
+              "A world-famous skiing destination known for snow activities and scenic beauty.",
+          },
+          {
+            name: "Pahalgam",
+            image:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+            description:
+              "A picturesque valley surrounded by mountains, rivers, and lush green meadows.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Rogan Josh",
+            image: "https://images.unsplash.com/photo-1544025162-d76694265947",
+            description:
+              "A flavorful Kashmiri lamb curry cooked with aromatic spices.",
+          },
+          {
+            name: "Kahwa",
+            image:
+              "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+            description:
+              "A traditional Kashmiri green tea infused with saffron, almonds, and spices.",
+          },
+          {
+            name: "Yakhni",
+            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            description:
+              "A rich yogurt-based curry prepared with tender meat and mild spices.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Skiing",
+            image:
+              "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+            description:
+              "Enjoy skiing and snowboarding adventures in Gulmarg during winter.",
+          },
+          {
+            name: "Shikara Ride",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Take a peaceful Shikara boat ride on the famous Dal Lake.",
+          },
+          {
+            name: "Camping & Trekking",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "Explore scenic trekking routes and camp amidst the Himalayan beauty.",
+          },
+        ],
       },
     },
 
@@ -88,27 +430,670 @@ const tourismData = {
 
       details: {
         description:
-          "Uttarakhand is famous for Himalayan beauty and spiritual destinations.",
-        famousPlaces: ["Rishikesh", "Mussoorie", "Nainital"],
+          "Uttarakhand, known as the 'Land of Gods', is famous for its Himalayan peaks, spiritual destinations, wildlife, and adventure activities.",
+
         bestTime: "March to June",
-        food: ["Kafuli", "Aloo Ke Gutke"],
-        activities: ["River Rafting", "Trekking"],
+
+        famousPlaces: [
+          {
+            name: "Rishikesh",
+            image:
+              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23",
+            description:
+              "Known as the Yoga Capital of the World and famous for the Ganga River and adventure sports.",
+          },
+          {
+            name: "Mussoorie",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+            description:
+              "Popularly called the Queen of Hills, offering breathtaking mountain views.",
+          },
+          {
+            name: "Nainital",
+            image:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+            description:
+              "A beautiful hill station famous for its lake, scenic beauty, and pleasant weather.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Kafuli",
+            image:
+              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+            description:
+              "A traditional dish made from spinach and fenugreek leaves.",
+          },
+          {
+            name: "Aloo Ke Gutke",
+            image:
+              "https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+            description:
+              "A spicy and flavorful potato dish popular across Uttarakhand.",
+          },
+          {
+            name: "Bal Mithai",
+            image:
+              "https://images.unsplash.com/photo-1482049016688-2d3e1b311543",
+            description:
+              "A famous brown chocolate-like sweet coated with sugar balls.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "River Rafting",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Experience thrilling white-water rafting in the Ganges at Rishikesh.",
+          },
+          {
+            name: "Trekking",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "Explore scenic Himalayan trekking routes and mountain trails.",
+          },
+          {
+            name: "Camping",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "Enjoy riverside and mountain camping under the stars.",
+          },
+        ],
       },
     },
 
     {
       id: 7,
-      title: "South Tourism",
+      title: "South India Tourism",
       video: "https://www.pexels.com/download/video/18560011/",
       category: ["Beach", "WildLife", "Spiritual"],
 
       details: {
         description:
-          "South India is known for beaches, temples, greenery, and culture.",
-        famousPlaces: ["Kerala", "Tamil Nadu", "Karnataka"],
+          "South India is renowned for its serene backwaters, beautiful beaches, ancient temples, rich traditions, lush greenery, and delicious cuisine.",
+
         bestTime: "October to March",
-        food: ["Dosa", "Idli", "Appam"],
-        activities: ["Temple Visit", "Backwater Cruise"],
+
+        famousPlaces: [
+          {
+            name: "Kerala",
+            image:
+              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944",
+            description:
+              "Known as God's Own Country, famous for backwaters, houseboats, tea plantations, and beaches.",
+          },
+          {
+            name: "Tamil Nadu",
+            image:
+              "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
+            description:
+              "Home to magnificent temples, rich culture, and classical traditions.",
+          },
+          {
+            name: "Karnataka",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+            description:
+              "Famous for heritage sites, waterfalls, hill stations, and modern cities like Bengaluru.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Dosa",
+            image:
+              "https://images.unsplash.com/photo-1630383249896-424e482df921",
+            description:
+              "A crispy rice and lentil crepe served with chutney and sambar.",
+          },
+          {
+            name: "Idli",
+            image:
+              "https://images.unsplash.com/photo-1589301760014-d929f3979dbc",
+            description:
+              "Soft steamed rice cakes that are a staple breakfast dish.",
+          },
+          {
+            name: "Appam",
+            image:
+              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+            description:
+              "A soft and fluffy rice pancake popular in Kerala cuisine.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Temple Visit",
+            image:
+              "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f",
+            description:
+              "Explore ancient temples such as Meenakshi Temple and Brihadeeswarar Temple.",
+          },
+          {
+            name: "Backwater Cruise",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Enjoy a peaceful houseboat ride through Kerala's famous backwaters.",
+          },
+          {
+            name: "Wildlife Safari",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "Visit wildlife sanctuaries and national parks like Bandipur and Periyar.",
+          },
+        ],
+      },
+    },
+    {
+      id: 8,
+      title: "Kerala Tourism",
+      video: "https://www.pexels.com/download/video/35097638/",
+
+      category: ["Beach", "Nature", "Backwaters"],
+
+      details: {
+        description:
+          "Kerala, known as 'God's Own Country', is famous for its serene backwaters, lush green landscapes, tea plantations, wildlife sanctuaries, and beautiful beaches.",
+
+        bestTime: "September to March",
+
+        famousPlaces: [
+          {
+            name: "Munnar",
+            image:
+              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944",
+            description:
+              "A picturesque hill station known for tea gardens, misty mountains, and breathtaking scenery.",
+          },
+          {
+            name: "Alleppey",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Famous for its backwaters, houseboat cruises, and tranquil waterways.",
+          },
+          {
+            name: "Kovalam",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+            description:
+              "A popular beach destination known for golden sands and lighthouse views.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Appam",
+            image:
+              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+            description:
+              "A soft rice pancake traditionally served with vegetable stew or curry.",
+          },
+          {
+            name: "Sadya",
+            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            description:
+              "A traditional vegetarian feast served on banana leaves during festivals.",
+          },
+          {
+            name: "Kerala Fish Curry",
+            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            description:
+              "A spicy and flavorful fish curry prepared with coconut and local spices.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Backwater Cruise",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Enjoy a relaxing houseboat cruise through Kerala's famous backwaters.",
+          },
+          {
+            name: "Ayurvedic Spa",
+            image:
+              "https://images.unsplash.com/photo-1515377905703-c4788e51af15",
+            description:
+              "Experience traditional Ayurvedic treatments and wellness therapies.",
+          },
+          {
+            name: "Wildlife Safari",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "Explore wildlife sanctuaries like Periyar and Wayanad.",
+          },
+        ],
+      },
+    },
+    {
+      id: 9,
+      title: "West Bengal Tourism",
+      video: "https://www.pexels.com/download/video/27425487/",
+
+      category: ["Heritage", "Hill Station", "Culture"],
+
+      details: {
+        description:
+          "West Bengal is a land of rich culture, colonial heritage, scenic hill stations, tea gardens, mangrove forests, and delicious cuisine.",
+
+        bestTime: "October to March",
+
+        famousPlaces: [
+          {
+            name: "Kolkata",
+            image:
+              "https://images.unsplash.com/photo-1536421469767-80559bb6f5e1",
+            description:
+              "The cultural capital of India, known for Victoria Memorial, Howrah Bridge, and colonial architecture.",
+          },
+          {
+            name: "Darjeeling",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "A beautiful hill station famous for tea gardens, toy trains, and Himalayan views.",
+          },
+          {
+            name: "Sundarbans",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "The world's largest mangrove forest and home to the Royal Bengal Tiger.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Rosogolla",
+            image:
+              "https://images.unsplash.com/photo-1482049016688-2d3e1b311543",
+            description:
+              "A famous Bengali sweet made from soft cottage cheese balls soaked in sugar syrup.",
+          },
+          {
+            name: "Macher Jhol",
+            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            description:
+              "A traditional Bengali fish curry cooked with vegetables and aromatic spices.",
+          },
+          {
+            name: "Mishti Doi",
+            image:
+              "https://images.unsplash.com/photo-1571212515416-fca88b972f83",
+            description:
+              "A delicious sweetened yogurt that is a favorite Bengali dessert.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Heritage Tourism",
+            image:
+              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+            description:
+              "Explore colonial architecture, museums, and historical landmarks of Kolkata.",
+          },
+          {
+            name: "Tea Garden Visit",
+            image:
+              "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+            description:
+              "Visit the famous tea estates of Darjeeling and learn about tea production.",
+          },
+          {
+            name: "Wildlife Safari",
+            image:
+              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+            description:
+              "Enjoy wildlife tours through the Sundarbans mangrove forests.",
+          },
+        ],
+      },
+    },
+    {
+      id: 10,
+      title: "Himachal Pradesh Tourism",
+      video: "https://www.pexels.com/download/video/29979281/",
+
+      category: ["Mountain", "Adventure", "Hill Station"],
+
+      details: {
+        description:
+          "Himachal Pradesh is a paradise of snow-capped mountains, lush valleys, rivers, and adventure sports. It is one of India's most popular destinations for nature lovers and thrill seekers.",
+
+        bestTime: "March to June and December to February",
+
+        famousPlaces: [
+          {
+            name: "Shimla",
+            image:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+            description:
+              "The capital of Himachal Pradesh, famous for colonial architecture, Mall Road, and scenic mountain views.",
+          },
+          {
+            name: "Manali",
+            image:
+              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+            description:
+              "A beautiful hill station known for snow activities, Solang Valley, and Rohtang Pass.",
+          },
+          {
+            name: "Spiti Valley",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "A cold desert mountain valley famous for monasteries, rugged landscapes, and adventure tourism.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Siddu",
+            image:
+              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+            description:
+              "A traditional steamed bread stuffed with local ingredients and served with ghee.",
+          },
+          {
+            name: "Madra",
+            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            description:
+              "A famous Himachali dish prepared with chickpeas and yogurt-based gravy.",
+          },
+          {
+            name: "Thukpa",
+            image: "https://images.unsplash.com/photo-1555126634-323283e090fa",
+            description:
+              "A delicious Tibetan noodle soup widely enjoyed in the Himalayan region.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Trekking",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "Explore scenic mountain trails including Hampta Pass, Triund, and Beas Kund.",
+          },
+          {
+            name: "River Rafting",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Enjoy thrilling rafting experiences in the Beas and Sutlej rivers.",
+          },
+          {
+            name: "Skiing",
+            image:
+              "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+            description:
+              "Experience skiing and snowboarding in Solang Valley and Narkanda.",
+          },
+        ],
+      },
+    },
+    {
+      id: 11,
+      title: "Andaman & Nicobar Tourism",
+      video: "https://www.pexels.com/download/video/31454292/",
+
+      category: ["Beach", "Adventure", "Island"],
+
+      details: {
+        description:
+          "Andaman & Nicobar Islands are famous for crystal-clear waters, white sandy beaches, coral reefs, marine life, and thrilling water sports. It is one of India's most beautiful tropical destinations.",
+
+        bestTime: "October to May",
+
+        famousPlaces: [
+          {
+            name: "Havelock Island",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+            description:
+              "One of the most popular islands known for scuba diving, snorkeling, and pristine beaches.",
+          },
+          {
+            name: "Cellular Jail",
+            image:
+              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+            description:
+              "A historic colonial prison that played a significant role in India's freedom struggle.",
+          },
+          {
+            name: "Radhanagar Beach",
+            image:
+              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+            description:
+              "Awarded as one of Asia's best beaches, famous for its turquoise waters and stunning sunsets.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Seafood",
+            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            description:
+              "Fresh fish, prawns, crabs, and lobsters prepared with local spices.",
+          },
+          {
+            name: "Coconut Curry",
+            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            description:
+              "A flavorful curry prepared using fresh coconut and regional spices.",
+          },
+          {
+            name: "Grilled Fish",
+            image:
+              "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2",
+            description: "A popular island delicacy served fresh from the sea.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Scuba Diving",
+            image: "https://images.unsplash.com/photo-1551244072-5d12893278ab",
+            description:
+              "Explore colorful coral reefs and marine life beneath the Andaman Sea.",
+          },
+          {
+            name: "Snorkeling",
+            image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+            description:
+              "Experience underwater beauty in shallow coral-rich waters.",
+          },
+          {
+            name: "Island Hopping",
+            image:
+              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+            description:
+              "Visit multiple islands and discover hidden beaches and natural attractions.",
+          },
+        ],
+      },
+    },
+    {
+      id: 12,
+      title: "Delhi Tourism",
+      video: "https://www.pexels.com/download/video/20794146/",
+
+      category: ["Heritage", "Food", "Culture"],
+
+      details: {
+        description:
+          "Delhi, the capital of India, is a vibrant blend of ancient history and modern development. It is famous for its historical monuments, bustling markets, diverse cuisine, and cultural heritage.",
+
+        bestTime: "October to March",
+
+        famousPlaces: [
+          {
+            name: "India Gate",
+            image:
+              "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+            description:
+              "A war memorial dedicated to Indian soldiers and one of Delhi's most iconic landmarks.",
+          },
+          {
+            name: "Red Fort",
+            image:
+              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f",
+            description:
+              "A UNESCO World Heritage Site built by Mughal Emperor Shah Jahan.",
+          },
+          {
+            name: "Qutub Minar",
+            image:
+              "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+            description:
+              "The tallest brick minaret in the world and a masterpiece of Indo-Islamic architecture.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Chole Bhature",
+            image:
+              "https://images.unsplash.com/photo-1626132647523-66e2f6f4b8a0",
+            description:
+              "A popular North Indian dish consisting of spicy chickpeas served with fried bread.",
+          },
+          {
+            name: "Butter Chicken",
+            image:
+              "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+            description:
+              "Delhi's famous creamy tomato-based chicken curry loved around the world.",
+          },
+          {
+            name: "Paratha",
+            image:
+              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+            description:
+              "Stuffed flatbreads available in a variety of flavors at Chandni Chowk.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Street Food Tour",
+            image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+            description:
+              "Explore Delhi's famous street food hubs including Chandni Chowk and Connaught Place.",
+          },
+          {
+            name: "Historical Visit",
+            image:
+              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+            description:
+              "Visit iconic historical sites such as Red Fort, Humayun's Tomb, and Qutub Minar.",
+          },
+          {
+            name: "Shopping Experience",
+            image:
+              "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+            description:
+              "Shop at Sarojini Nagar, Janpath, Chandni Chowk, and modern malls.",
+          },
+        ],
+      },
+    },
+    {
+      id: 13,
+      title: "Ladakh Tourism",
+      video: "https://www.pexels.com/download/video/17982168/",
+
+      category: ["Mountain", "Adventure", "Culture"],
+
+      details: {
+        description:
+          "Ladakh, known as the 'Land of High Passes', is famous for its breathtaking mountains, crystal-clear lakes, ancient monasteries, and thrilling road trips. It is one of India's most spectacular adventure destinations.",
+
+        bestTime: "May to September",
+
+        famousPlaces: [
+          {
+            name: "Pangong Lake",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "A stunning high-altitude lake known for its changing shades of blue and scenic beauty.",
+          },
+          {
+            name: "Leh Palace",
+            image:
+              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+            description:
+              "A historic royal palace offering panoramic views of Leh town and surrounding mountains.",
+          },
+          {
+            name: "Nubra Valley",
+            image:
+              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+            description:
+              "A beautiful valley famous for sand dunes, double-humped camels, and breathtaking landscapes.",
+          },
+        ],
+
+        food: [
+          {
+            name: "Momos",
+            image:
+              "https://images.unsplash.com/photo-1626804475297-41608ea09aeb",
+            description:
+              "Traditional Tibetan-style dumplings filled with vegetables or meat.",
+          },
+          {
+            name: "Thukpa",
+            image: "https://images.unsplash.com/photo-1555126634-323283e090fa",
+            description:
+              "A warm noodle soup popular across Ladakh and the Himalayan region.",
+          },
+          {
+            name: "Butter Tea",
+            image:
+              "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+            description:
+              "A traditional Ladakhi beverage made with tea, butter, and salt.",
+          },
+        ],
+
+        activities: [
+          {
+            name: "Bike Riding",
+            image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+            description:
+              "Experience thrilling bike expeditions on some of the world's highest motorable roads.",
+          },
+          {
+            name: "Camping",
+            image:
+              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            description:
+              "Enjoy unforgettable nights under the stars near Pangong Lake and Nubra Valley.",
+          },
+          {
+            name: "Monastery Visit",
+            image:
+              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d",
+            description:
+              "Explore ancient monasteries such as Hemis, Thiksey, and Diskit Monastery.",
+          },
+        ],
       },
     },
   ],
@@ -320,279 +1305,135 @@ const tourismData = {
       },
     },
   ],
-  destination: [
+  festival: [
     {
       id: 14,
-      heading: "Kashmir",
-      location: "Jammu & Kashmir",
-      category: ["Mountain", "Adventure"],
+      heading: "Diwali",
+      state: "Pan India",
+      category: ["Culture", "Heritage"],
       image:
-        "https://images.unsplash.com/photo-1643449415972-87d4cfe882a1?w=600",
-      rating: "4.9",
+        "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
 
       details: {
         description:
-          "Kashmir is known for snowy mountains and beautiful valleys.",
-        famousPlaces: ["Dal Lake", "Gulmarg", "Sonmarg"],
-        bestTime: "March to October",
-        food: ["Kahwa", "Rogan Josh"],
-        activities: ["Skiing", "Shikara Ride"],
+          "Diwali, the Festival of Lights, celebrates the victory of light over darkness.",
+
+        famousPlaces: ["Ayodhya", "Varanasi", "Jaipur"],
+
+        bestTime: "October - November",
+
+        food: ["Laddu", "Kaju Katli", "Chakli"],
+
+        activities: ["Fireworks", "Temple Visit", "Decoration"],
       },
     },
 
     {
       id: 15,
-      heading: "Goa",
-      location: "Western India",
-      category: ["Beach", "Adventure"],
+      heading: "Holi",
+      state: "Uttar Pradesh",
+      category: ["Culture", "Fun"],
       image:
-        "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600",
-      rating: "4.2",
+        "https://images.unsplash.com/photo-1616840382784-c3f6c3f9c4dd?w=600",
 
       details: {
-        description: "Goa is famous for beaches and nightlife.",
-        famousPlaces: ["Baga Beach", "Anjuna", "Panaji"],
-        bestTime: "November to February",
-        food: ["Fish Curry", "Bebinca"],
-        activities: ["Scuba Diving", "Beach Party"],
+        description:
+          "Holi is the festival of colors celebrated with joy and enthusiasm.",
+
+        famousPlaces: ["Mathura", "Vrindavan", "Barsana"],
+
+        bestTime: "March",
+
+        food: ["Gujiya", "Thandai"],
+
+        activities: ["Color Celebration", "Music", "Dance"],
       },
     },
 
     {
       id: 16,
-      heading: "Kerala",
-      location: "South India",
-      category: ["Beach", "WildLife", "Spiritual"],
-      image: "https://images.unsplash.com/photo-1519046904884-53103b34b206",
-      rating: "4.6",
+      heading: "Durga Puja",
+      state: "West Bengal",
+      category: ["Culture", "Spiritual"],
+      image:
+        "https://images.unsplash.com/photo-1630487651321-4c92f9f4a7a6?w=600",
 
       details: {
-        description: "Kerala is famous for backwaters, greenery, and Ayurveda.",
-        famousPlaces: ["Munnar", "Alleppey", "Kochi"],
-        bestTime: "September to March",
-        food: ["Appam", "Kerala Sadya"],
-        activities: ["Backwater Cruise", "Houseboat Stay"],
+        description:
+          "Durga Puja is the grand celebration of Goddess Durga in West Bengal.",
+
+        famousPlaces: ["Kolkata", "Howrah"],
+
+        bestTime: "September - October",
+
+        food: ["Khichuri", "Rosogolla"],
+
+        activities: ["Pandal Hopping", "Cultural Programs"],
       },
     },
 
     {
       id: 17,
-      heading: "Rajasthan",
-      location: "Northwest India",
-      category: ["Heritage", "Adventure"],
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245",
-      rating: "4.7",
+      heading: "Ganesh Chaturthi",
+      state: "Maharashtra",
+      category: ["Spiritual", "Culture"],
+      image:
+        "https://images.unsplash.com/photo-1567591414240-e9c1c0f5eec6?w=600",
 
       details: {
-        description:
-          "Rajasthan offers royal heritage, forts, and desert tourism.",
-        famousPlaces: ["Jaipur", "Udaipur", "Jodhpur"],
-        bestTime: "November to February",
-        food: ["Dal Baati", "Ghewar"],
-        activities: ["Camel Ride", "Fort Visit"],
+        description: "Ganesh Chaturthi celebrates the birth of Lord Ganesha.",
+
+        famousPlaces: ["Mumbai", "Pune"],
+
+        bestTime: "August - September",
+
+        food: ["Modak", "Puran Poli"],
+
+        activities: ["Ganesh Visarjan", "Temple Visit"],
       },
     },
 
     {
       id: 18,
-      heading: "Meghalaya",
-      location: "Northeast India",
-      category: ["Mountain", "WildLife", "Adventure"],
-      image: "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
-      rating: "4.8",
+      heading: "Onam",
+      state: "Kerala",
+      category: ["Culture", "Harvest"],
+      image:
+        "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
 
       details: {
         description:
-          "Meghalaya is known for waterfalls, caves, and green hills.",
-        famousPlaces: ["Shillong", "Cherrapunji"],
-        bestTime: "October to April",
-        food: ["Jadoh", "Tungrymbai"],
-        activities: ["Cave Exploration", "Waterfall Trekking"],
+          "Onam is Kerala's biggest harvest festival celebrated with traditional events.",
+
+        famousPlaces: ["Kochi", "Alleppey", "Thrissur"],
+
+        bestTime: "August - September",
+
+        food: ["Onam Sadya", "Payasam"],
+
+        activities: ["Boat Race", "Flower Decoration"],
       },
     },
 
     {
       id: 19,
-      heading: "Varanasi",
-      location: "Uttar Pradesh",
-      category: ["Spiritual", "Heritage"],
+      heading: "Bihu",
+      state: "Assam",
+      category: ["Culture", "Harvest"],
       image:
-        "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600",
-      rating: "4.6",
+        "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
 
       details: {
         description:
-          "Varanasi is one of the oldest spiritual cities in the world.",
-        famousPlaces: ["Kashi Vishwanath", "Dashashwamedh Ghat"],
-        bestTime: "October to March",
-        food: ["Banarasi Paan", "Kachori"],
-        activities: ["Ganga Aarti", "Boat Ride"],
-      },
-    },
-  ],
+          "Bihu is the most important festival of Assam celebrating agriculture and prosperity.",
 
-  india: [
-    {
-      id: 20,
-      category: "States",
-      heading: "Maharashtra",
-      video: "https://www.pexels.com/download/video/5464304/",
+        famousPlaces: ["Guwahati", "Majuli"],
 
-      details: {
-        videos:"https://www.pexels.com/download/video/4460335/",
-        description:
-          "Maharashtra is famous for forts, beaches, and Mumbai city.",
-        famousPlaces: ["Mumbai", "Pune", "Mahabaleshwar"],
-        bestTime: "October to March",
-        food: ["Vada Pav", "Misal Pav"],
-        activities: ["Beach Tourism", "Fort Trekking"],
-      },
-    },
+        bestTime: "April",
 
-    {
-      id: 21,
-      category: "States",
-      heading: "Rajasthan",
-      video: "https://www.pexels.com/download/video/27052515/",
+        food: ["Pitha", "Laru"],
 
-      details: {
-        videos:"https://www.pexels.com/download/video/37465315/",
-        description: "Rajasthan is known for palaces and desert culture.",
-        famousPlaces: ["Jaipur", "Jaisalmer"],
-        bestTime: "November to February",
-        food: ["Dal Baati", "Laal Maas"],
-        activities: ["Camel Safari", "Fort Visit"],
-      },
-    },
-
-    {
-      id: 22,
-      category: "States",
-      heading: "Kerala",
-      video: "https://www.pexels.com/download/video/35097638/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/29041047/",
-        description: "Kerala is famous for greenery and backwaters.",
-        famousPlaces: ["Munnar", "Alleppey"],
-        bestTime: "September to March",
-        food: ["Appam", "Sadya"],
-        activities: ["Backwater Cruise", "Ayurveda"],
-      },
-    },
-
-    {
-      id: 23,
-      category: "States",
-      heading: "West Bengal",
-      video: "https://www.pexels.com/download/video/27425487/",
-
-      details: {
-        videos:"https://www.pexels.com/download/video/33713348/",
-        description:
-          "West Bengal is famous for its cultural heritage, hill stations, and beautiful beaches.",
-        famousPlaces: ["Kolkata", "Darjeeling"],
-        bestTime: "October to March",
-        food: ["Rosogolla", "Macher Jhol"],
-        activities: ["Heritage Tourism", "Tea Garden Visit"],
-      },
-    },
-
-    {
-      id: 24,
-      category: "States",
-      heading: "Uttarakhand",
-      video: "https://www.pexels.com/download/video/34396879/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/20594056/",
-        description: "Uttarakhand is famous for mountains and spirituality.",
-        famousPlaces: ["Nainital", "Rishikesh"],
-        bestTime: "March to June",
-        food: ["Kafuli", "Aloo Gutke"],
-        activities: ["Rafting", "Trekking"],
-      },
-    },
-
-    {
-      id: 25,
-      category: "States",
-      heading: "Himachal Pradesh",
-      video: "https://www.pexels.com/download/video/29979281/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/18917999/",
-        description:
-          "Himachal Pradesh is famous for snow-covered mountains, hill stations, and adventure tourism.",
-        famousPlaces: ["Shimla", "Manali", "Dharamshala", "Spiti Valley"],
-        bestTime: "March to June and December to February",
-        food: ["Siddu", "Madra", "Thukpa"],
-        activities: ["Trekking", "River Rafting", "Camping", "Skiing"],
-      },
-    },
-
-    {
-      id: 26,
-      category: "Union-Territory",
-      heading: "Andaman & Nicobar",
-      video: "https://www.pexels.com/download/video/31454292/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/6198159/",
-        description: "Andaman is famous for beaches and marine adventure.",
-        famousPlaces: ["Havelock Island", "Cellular Jail"],
-        bestTime: "October to May",
-        food: ["Seafood", "Coconut Curry"],
-        activities: ["Scuba Diving", "Snorkeling"],
-      },
-    },
-
-    {
-      id: 27,
-      category: "Union-Territory",
-      heading: "Delhi",
-      video: "https://www.pexels.com/download/video/20794146/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/6590599/",
-        description: "Delhi blends history, culture, and modern lifestyle.",
-        famousPlaces: ["India Gate", "Red Fort"],
-        bestTime: "October to March",
-        food: ["Chole Bhature", "Butter Chicken"],
-        activities: ["Street Food Tour", "Historical Visit"],
-      },
-    },
-
-    {
-      id: 28,
-      category: "Union-Territory",
-      heading: "Jammu & Kashmir",
-      video: "https://www.pexels.com/download/video/37256227/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/10760752/",
-        description: "Jammu & Kashmir is famous for valleys and snowfall.",
-        famousPlaces: ["Srinagar", "Gulmarg"],
-        bestTime: "March to October",
-        food: ["Kahwa", "Rogan Josh"],
-        activities: ["Skiing", "Shikara Ride"],
-      },
-    },
-
-    {
-      id: 29,
-      category: "Union-Territory",
-      heading: "Ladakh",
-      video: "https://www.pexels.com/download/video/17982168/",
-
-      details: {
-        videos: "https://www.pexels.com/download/video/19079020/",
-        description:
-          "Ladakh is known for mountains, monasteries, and bike trips.",
-        famousPlaces: ["Pangong Lake", "Leh Palace"],
-        bestTime: "May to September",
-        food: ["Momos", "Thukpa"],
-        activities: ["Bike Riding", "Camping"],
+        activities: ["Folk Dance", "Music", "Cultural Events"],
       },
     },
   ],

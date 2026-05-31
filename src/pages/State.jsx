@@ -9,10 +9,10 @@ const State = () => {
   const [search, setSearch] = useState("");
 
   // Filter Data
-  const filterData = tourismData.india.filter(
+  const filterData = tourismData.tourism.filter(
     (item) =>
-      tourismData.india &&
-      item.heading.toLowerCase().includes(search.toLowerCase()),
+      tourismData.tourism &&
+      item.title.toLowerCase().includes(search.toLowerCase()),
   );
 
   return (
@@ -63,7 +63,7 @@ const State = () => {
               }}
               className="text-left text-white hover:text-cyan-400 duration-300 border-b border-gray-700 pb-2"
             >
-              {item.heading}
+              {item.title}
             </button>
           ))}
         </div>
@@ -100,12 +100,8 @@ const State = () => {
 
               {/* Content */}
               <div className="absolute bottom-0 left-0 p-6 text-white z-10">
-                <p className="text-sm uppercase tracking-[3px] text-orange-300 mb-2">
-                  {item.category}
-                </p>
-
-                <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                  {item.heading}
+                <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+                  {item.title}
                 </h1>
                 <Link to={`/details/${item.id}`}>
                   <button className="mt-4 px-5 py-2 border border-white rounded-full hover:bg-white hover:text-black duration-300">
