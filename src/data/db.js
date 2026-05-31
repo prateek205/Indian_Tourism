@@ -1650,20 +1650,20 @@ const tourismData = {
           {
             name: "Ayodhya",
             image:
-              "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=600",
+              "https://images.pexels.com/photos/4533747/pexels-photo-4533747.jpeg",
             description:
               "Ayodhya is beautifully illuminated during Diwali celebrations.",
           },
           {
             name: "Varanasi",
             image:
-              "https://images.unsplash.com/photo-1561361058-c24cec75577d?w=600",
+              "https://images.pexels.com/photos/18215015/pexels-photo-18215015.jpeg",
             description: "Famous for grand Ganga Aarti and thousands of diyas.",
           },
           {
             name: "Jaipur",
             image:
-              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+              "https://images.pexels.com/photos/4476397/pexels-photo-4476397.jpeg",
             description: "Known for colorful lights and festive decorations.",
           },
         ],
@@ -1674,19 +1674,19 @@ const tourismData = {
           {
             name: "Laddu",
             image:
-              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+              "https://images.pexels.com/photos/5350676/pexels-photo-5350676.jpeg",
             description: "A traditional sweet enjoyed during Diwali.",
           },
           {
             name: "Kaju Katli",
             image:
-              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+              "https://images.pexels.com/photos/10514163/pexels-photo-10514163.jpeg",
             description: "Popular cashew-based festive sweet.",
           },
           {
             name: "Chakli",
             image:
-              "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600",
+              "https://images.pexels.com/photos/12865863/pexels-photo-12865863.jpeg",
             description: "Crunchy savory snack prepared during Diwali.",
           },
         ],
@@ -1695,19 +1695,19 @@ const tourismData = {
           {
             name: "Fireworks",
             image:
-              "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600",
+              "https://images.pexels.com/photos/1580085/pexels-photo-1580085.jpeg",
             description: "People celebrate with colorful fireworks displays.",
           },
           {
             name: "Temple Visit",
             image:
-              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+              "https://images.pexels.com/photos/10144528/pexels-photo-10144528.jpeg",
             description: "Families visit temples and perform prayers.",
           },
           {
             name: "Decoration",
             image:
-              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+              "https://images.pexels.com/photos/8887068/pexels-photo-8887068.jpeg",
             description: "Homes are decorated with diyas and rangoli.",
           },
         ],
@@ -1730,21 +1730,21 @@ const tourismData = {
           {
             name: "Mathura",
             image:
-              "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600",
+              "https://images.pexels.com/photos/31203519/pexels-photo-31203519.jpeg",
             description:
               "Birthplace of Lord Krishna and one of the most famous places to celebrate Holi.",
           },
           {
             name: "Vrindavan",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+              "https://images.pexels.com/photos/11526024/pexels-photo-11526024.jpeg",
             description:
               "Known for week-long Holi celebrations in temples and streets.",
           },
           {
             name: "Barsana",
             image:
-              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=600",
+              "https://images.pexels.com/photos/20691505/pexels-photo-20691505.jpeg",
             description:
               "Famous for Lathmar Holi where women playfully hit men with sticks.",
           },
@@ -1756,14 +1756,14 @@ const tourismData = {
           {
             name: "Gujiya",
             image:
-              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+              "https://images.pexels.com/photos/12469922/pexels-photo-12469922.jpeg",
             description:
               "A sweet dumpling filled with khoya, dry fruits, and coconut.",
           },
           {
             name: "Thandai",
             image:
-              "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600",
+              "https://images.pexels.com/photos/6808666/pexels-photo-6808666.jpeg",
             description:
               "Traditional milk-based festive drink enjoyed during Holi.",
           },
@@ -1773,21 +1773,21 @@ const tourismData = {
           {
             name: "Color Celebration",
             image:
-              "https://images.unsplash.com/photo-1552083375-1447ce886485?w=600",
+              "https://images.pexels.com/photos/11511275/pexels-photo-11511275.jpeg",
             description:
               "People throw colorful powders and celebrate together.",
           },
           {
             name: "Music & Dance",
             image:
-              "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+              "https://images.pexels.com/photos/19360777/pexels-photo-19360777.jpeg",
             description:
               "Festive gatherings feature music, dance, and cultural performances.",
           },
           {
             name: "Community Gatherings",
             image:
-              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+              "https://images.pexels.com/photos/16072789/pexels-photo-16072789.jpeg",
             description:
               "Families and friends come together to celebrate unity and happiness.",
           },
@@ -1818,7 +1818,7 @@ const tourismData = {
           {
             name: "Howrah",
             image:
-              "https://images.unsplash.com/photo-1583396618422-1d5f5e38b8a8?w=600",
+              "https://images.pexels.com/photos/9461013/pexels-photo-9461013.jpeg",
             description:
               "Known for traditional Durga Puja festivities and community celebrations.",
           },
@@ -1830,14 +1830,14 @@ const tourismData = {
           {
             name: "Khichuri",
             image:
-              "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600",
+              "https://images.pexels.com/photos/34159111/pexels-photo-34159111.jpeg",
             description:
               "Traditional bhog offered to devotees during Durga Puja.",
           },
           {
             name: "Rosogolla",
             image:
-              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+              "https://images.pexels.com/photos/8788869/pexels-photo-8788869.jpeg",
             description: "A famous Bengali sweet enjoyed during the festival.",
           },
         ],
@@ -1846,21 +1846,21 @@ const tourismData = {
           {
             name: "Pandal Hopping",
             image:
-              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+              "https://images.pexels.com/photos/9910057/pexels-photo-9910057.jpeg",
             description:
               "Visitors explore beautifully themed Durga Puja pandals across the city.",
           },
           {
             name: "Cultural Programs",
             image:
-              "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600",
+              "https://images.pexels.com/photos/18948696/pexels-photo-18948696.jpeg",
             description:
               "Music, dance, drama, and cultural performances are organized throughout the festival.",
           },
           {
             name: "Sindoor Khela",
             image:
-              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+              "https://images.pexels.com/photos/19381668/pexels-photo-19381668.jpeg",
             description:
               "A traditional ritual where married women apply vermilion to each other on the last day.",
           },
@@ -1884,14 +1884,14 @@ const tourismData = {
           {
             name: "Mumbai",
             image:
-              "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=600",
+              "https://images.pexels.com/photos/28157061/pexels-photo-28157061.jpeg",
             description:
               "Mumbai hosts the most famous Ganesh Chaturthi celebrations.",
           },
           {
             name: "Pune",
             image:
-              "https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600",
+              "https://images.pexels.com/photos/19656236/pexels-photo-19656236.jpeg",
             description:
               "Known for traditional and cultural Ganesh festivities.",
           },
@@ -1903,13 +1903,13 @@ const tourismData = {
           {
             name: "Modak",
             image:
-              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+              "https://images.pexels.com/photos/33643272/pexels-photo-33643272.jpeg",
             description: "Lord Ganesha's favorite sweet.",
           },
           {
             name: "Puran Poli",
             image:
-              "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600",
+              "https://images.pexels.com/photos/7837973/pexels-photo-7837973.jpeg",
             description: "Traditional Maharashtrian festive delicacy.",
           },
         ],
@@ -1918,13 +1918,13 @@ const tourismData = {
           {
             name: "Ganesh Visarjan",
             image:
-              "https://images.unsplash.com/photo-1567591414240-e9c1c0f5eec6?w=600",
+              "https://images.pexels.com/photos/28512653/pexels-photo-28512653.jpeg",
             description: "Grand immersion processions of Lord Ganesha idols.",
           },
           {
             name: "Temple Visit",
             image:
-              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+              "https://images.pexels.com/photos/28288479/pexels-photo-28288479.jpeg",
             description: "Devotees visit temples and seek blessings.",
           },
         ],
