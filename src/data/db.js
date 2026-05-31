@@ -1120,28 +1120,28 @@ const tourismData = {
           {
             name: "Uttarakhand",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+              "https://images.pexels.com/photos/14065145/pexels-photo-14065145.jpeg",
             description:
               "Famous for Nainital, Mussoorie, Rishikesh, and Himalayan landscapes.",
           },
           {
             name: "Himachal Pradesh",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+              "https://images.pexels.com/photos/30550231/pexels-photo-30550231.jpeg",
             description:
               "Popular for Shimla, Manali, snow adventures, and scenic mountain beauty.",
           },
           {
             name: "Sikkim",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+              "https://images.pexels.com/photos/19864968/pexels-photo-19864968.jpeg",
             description:
               "Home to Kanchenjunga, monasteries, and stunning mountain views.",
           },
           {
             name: "Meghalaya",
             image:
-              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+              "https://images.pexels.com/photos/18476582/pexels-photo-18476582.jpeg",
             description:
               "Known for living root bridges, waterfalls, caves, and green hills.",
           },
@@ -1158,28 +1158,28 @@ const tourismData = {
           {
             name: "Manali",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+              "https://images.pexels.com/photos/31776512/pexels-photo-31776512.jpeg",
             description:
               "A popular hill station offering adventure sports and mountain views.",
           },
           {
             name: "Nainital",
             image:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+              "https://images.pexels.com/photos/11847569/pexels-photo-11847569.jpeg",
             description:
               "Known for its beautiful lake, pleasant weather, and surrounding hills.",
           },
           {
             name: "Darjeeling",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+              "https://images.pexels.com/photos/36672890/pexels-photo-36672890.jpeg",
             description:
               "Famous for tea gardens, toy train rides, and Himalayan views.",
           },
           {
             name: "Shillong",
             image:
-              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+              "https://images.pexels.com/photos/19469039/pexels-photo-19469039.jpeg",
             description:
               "The capital of Meghalaya, known as the Scotland of the East.",
           },
@@ -1204,35 +1204,35 @@ const tourismData = {
           {
             name: "Goa",
             image:
-              "https://images.unsplash.com/photo-1642922835816-e2ac68db5c42?w=600",
+              "https://images.pexels.com/photos/978667/pexels-photo-978667.jpeg",
             description:
               "India's most famous beach destination with nightlife and water sports.",
           },
           {
             name: "Kerala",
             image:
-              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+              "https://images.pexels.com/photos/6652178/pexels-photo-6652178.jpeg",
             description:
               "Known for beaches, backwaters, houseboats, and natural beauty.",
           },
           {
             name: "Maharashtra",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+              "https://images.pexels.com/photos/1462641/pexels-photo-1462641.jpeg",
             description:
               "Famous for Juhu Beach, Alibaug, and the Konkan coastline.",
           },
           {
             name: "Andaman & Nicobar",
             image:
-              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+              "https://images.pexels.com/photos/14313849/pexels-photo-14313849.jpeg",
             description:
               "Offers crystal-clear waters, coral reefs, and pristine beaches.",
           },
           {
             name: "Tamil Nadu",
             image:
-              "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600",
+              "https://images.pexels.com/photos/5732287/pexels-photo-5732287.jpeg",
             description:
               "Known for Marina Beach and beautiful coastal temples.",
           },
@@ -1242,7 +1242,7 @@ const tourismData = {
           {
             name: "Baga Beach",
             image:
-              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+              "https://images.pexels.com/photos/28355680/pexels-photo-28355680.jpeg",
             description:
               "One of Goa's most popular beaches, known for nightlife and water sports.",
           },
@@ -1259,9 +1259,9 @@ const tourismData = {
             description: "Known for Kerala backwaters and houseboat cruises.",
           },
           {
-            name: "Juhu Beach",
+            name: "Konkan Coastal Line",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+              "https://images.pexels.com/photos/28368719/pexels-photo-28368719.jpeg",
             description: "A famous beach destination in Mumbai.",
           },
           {
@@ -1299,7 +1299,7 @@ const tourismData = {
           {
             name: "Uttarakhand",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+              "https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg",
             description:
               "Known for Haridwar, Rishikesh, Kedarnath, and Badrinath.",
           },
@@ -1323,13 +1323,13 @@ const tourismData = {
           {
             name: "Rishikesh",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+              "https://images.pexels.com/photos/15196909/pexels-photo-15196909.jpeg",
             description: "Known as the Yoga Capital of the World.",
           },
           {
             name: "Bodh Gaya",
             image:
-              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?w=600",
+              "https://images.pexels.com/photos/7792726/pexels-photo-7792726.jpeg",
             description:
               "The place where Gautama Buddha attained enlightenment.",
           },
@@ -1342,7 +1342,7 @@ const tourismData = {
           {
             name: "Haridwar",
             image:
-              "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600",
+              "https://images.pexels.com/photos/10783023/pexels-photo-10783023.jpeg",
             description: "Known for Ganga Aarti and spiritual significance.",
           },
         ],
@@ -1367,41 +1367,41 @@ const tourismData = {
           {
             name: "Assam",
             image:
-              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+              "https://images.pexels.com/photos/34030626/pexels-photo-34030626.jpeg",
             description:
               "Home to Kaziranga National Park and one-horned rhinoceroses.",
           },
           {
             name: "Maharashtra",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600",
+              "https://images.pexels.com/photos/30889519/pexels-photo-30889519.jpeg",
             description: "Known for Tadoba Tiger Reserve and wildlife safaris.",
           },
           {
             name: "Uttarakhand",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+              "https://images.pexels.com/photos/29666809/pexels-photo-29666809.png",
             description:
               "Famous for Jim Corbett National Park and rich biodiversity.",
           },
           {
             name: "Rajasthan",
             image:
-              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+              "https://images.pexels.com/photos/12436501/pexels-photo-12436501.jpeg",
             description:
               "Known for Ranthambore National Park and tiger safaris.",
           },
           {
             name: "Karnataka",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600",
+              "https://images.pexels.com/photos/982021/pexels-photo-982021.jpeg",
             description:
               "Home to Bandipur National Park and wildlife reserves.",
           },
           {
             name: "West Bengal",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+              "https://images.pexels.com/photos/18064294/pexels-photo-18064294.jpeg",
             description:
               "Famous for Sundarbans mangrove forests and Royal Bengal Tigers.",
           },
@@ -1411,34 +1411,34 @@ const tourismData = {
           {
             name: "Kaziranga National Park",
             image:
-              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+              "https://images.pexels.com/photos/30317733/pexels-photo-30317733.jpeg",
             description:
               "UNESCO World Heritage Site famous for one-horned rhinoceroses.",
           },
           {
             name: "Ranthambore National Park",
             image:
-              "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600",
+              "https://images.pexels.com/photos/18947948/pexels-photo-18947948.jpeg",
             description:
               "One of India's best tiger reserves located in Rajasthan.",
           },
           {
             name: "Jim Corbett National Park",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+              "https://images.pexels.com/photos/29666819/pexels-photo-29666819.png",
             description:
               "India's oldest national park and a major tiger reserve.",
           },
           {
             name: "Bandipur National Park",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+              "https://images.pexels.com/photos/35652356/pexels-photo-35652356.jpeg",
             description: "A major wildlife sanctuary in Karnataka.",
           },
           {
             name: "Sundarbans National Park",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600",
+              "https://images.pexels.com/photos/31447782/pexels-photo-31447782.jpeg",
             description: "Known for mangrove forests and Royal Bengal Tigers.",
           },
         ],
