@@ -16,21 +16,21 @@ const tourismData = {
           {
             name: "Kaziranga National Park",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/34030626/pexels-photo-34030626.jpeg",
             description:
               "A UNESCO World Heritage Site famous for the one-horned rhinoceros and diverse wildlife.",
           },
           {
             name: "Majuli",
             image:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+              "https://images.pexels.com/photos/7191012/pexels-photo-7191012.jpeg",
             description:
               "The world's largest river island, known for its monasteries and Assamese culture.",
           },
           {
             name: "Guwahati",
             image:
-              "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+              "https://images.pexels.com/photos/31726787/pexels-photo-31726787.jpeg",
             description:
               "The gateway to Northeast India and home to the famous Kamakhya Temple.",
           },
@@ -39,20 +39,22 @@ const tourismData = {
         food: [
           {
             name: "Khar",
-            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            image:
+              "https://images.pexels.com/photos/26245461/pexels-photo-26245461.jpeg",
             description:
               "A traditional Assamese dish prepared with raw papaya, pulses, and alkaline water.",
           },
           {
             name: "Masor Tenga",
-            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            image:
+              "https://images.pexels.com/photos/35532834/pexels-photo-35532834.jpeg",
             description:
               "A light and tangy fish curry, one of Assam's most popular dishes.",
           },
           {
             name: "Pitha",
             image:
-              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+              "https://images.pexels.com/photos/16217814/pexels-photo-16217814.jpeg",
             description:
               "A traditional rice cake prepared during Assamese festivals and celebrations.",
           },
@@ -62,21 +64,21 @@ const tourismData = {
           {
             name: "Wildlife Safari",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+              "https://images.pexels.com/photos/30317733/pexels-photo-30317733.jpeg",
             description:
               "Enjoy jeep and elephant safaris through Kaziranga National Park.",
           },
           {
             name: "River Cruise",
             image:
-              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+              "https://images.pexels.com/photos/34366922/pexels-photo-34366922.jpeg",
             description:
               "Experience scenic cruises along the mighty Brahmaputra River.",
           },
           {
             name: "Tea Garden Visit",
             image:
-              "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+              "https://images.pexels.com/photos/18529657/pexels-photo-18529657.jpeg",
             description:
               "Explore Assam's world-famous tea estates and learn about tea production.",
           },
@@ -106,14 +108,15 @@ const tourismData = {
           },
           {
             name: "Varanasi",
-            image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc",
+            image:
+              "https://images.pexels.com/photos/18728098/pexels-photo-18728098.jpeg",
             description:
               "One of the world's oldest living cities, situated on the banks of the Ganges.",
           },
           {
             name: "Ayodhya",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+              "https://images.pexels.com/photos/11969919/pexels-photo-11969919.jpeg",
             description:
               "A sacred city believed to be the birthplace of Lord Rama.",
           },
@@ -123,21 +126,21 @@ const tourismData = {
           {
             name: "Petha",
             image:
-              "https://images.unsplash.com/photo-1482049016688-2d3e1b311543",
+              "https://images.pexels.com/photos/5988342/pexels-photo-5988342.jpeg",
             description:
               "A famous sweet delicacy from Agra made from ash gourd.",
           },
           {
             name: "Kachori",
             image:
-              "https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+              "https://images.pexels.com/photos/9639258/pexels-photo-9639258.jpeg",
             description:
               "A crispy and spicy snack enjoyed throughout the state.",
           },
           {
             name: "Tunday Kabab",
             image:
-              "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba",
+              "https://images.pexels.com/photos/5708088/pexels-photo-5708088.jpeg",
             description:
               "A legendary Lucknow specialty known for its soft texture and rich flavors.",
           },
@@ -147,20 +150,21 @@ const tourismData = {
           {
             name: "Temple Visit",
             image:
-              "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f",
+              "https://images.pexels.com/photos/35960310/pexels-photo-35960310.jpeg",
             description:
               "Explore famous temples in Ayodhya, Mathura, and Varanasi.",
           },
           {
             name: "Historical Tour",
             image:
-              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+              "https://images.pexels.com/photos/6176676/pexels-photo-6176676.jpeg",
             description:
               "Visit world-famous monuments including the Taj Mahal and Fatehpur Sikri.",
           },
           {
             name: "Ganga Aarti Experience",
-            image: "https://images.unsplash.com/photo-1548013146-72479768bada",
+            image:
+              "https://images.pexels.com/photos/36613136/pexels-photo-36613136.jpeg",
             description:
               "Witness the spiritual evening Ganga Aarti at Varanasi Ghats.",
           },
@@ -184,20 +188,21 @@ const tourismData = {
           {
             name: "Jaipur",
             image:
-              "https://images.unsplash.com/photo-1477587458883-47145ed94245",
+              "https://images.pexels.com/photos/34086724/pexels-photo-34086724.jpeg",
             description:
               "Known as the Pink City, Jaipur is famous for Amber Fort, Hawa Mahal, and royal heritage.",
           },
           {
             name: "Jaisalmer",
-            image: "https://images.unsplash.com/photo-1518684079-3c830dcef090",
+            image:
+              "https://images.pexels.com/photos/36020918/pexels-photo-36020918.jpeg",
             description:
               "The Golden City of India, famous for its desert forts and sand dunes.",
           },
           {
             name: "Udaipur",
             image:
-              "https://images.unsplash.com/photo-1521295121783-8a321d551ad2",
+              "https://images.pexels.com/photos/17547457/pexels-photo-17547457.jpeg",
             description:
               "Known as the City of Lakes, Udaipur offers beautiful palaces and scenic waterfront views.",
           },
@@ -207,20 +212,21 @@ const tourismData = {
           {
             name: "Dal Baati Churma",
             image:
-              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+              "https://images.pexels.com/photos/18488304/pexels-photo-18488304.jpeg",
             description:
               "The signature dish of Rajasthan made with baked wheat balls, lentils, and sweet churma.",
           },
           {
             name: "Laal Maas",
-            image: "https://images.unsplash.com/photo-1544025162-d76694265947",
+            image:
+              "https://images.pexels.com/photos/20446401/pexels-photo-20446401.jpeg",
             description:
               "A spicy mutton curry prepared with traditional Rajasthani spices.",
           },
           {
             name: "Ghewar",
             image:
-              "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+              "https://images.pexels.com/photos/36101407/pexels-photo-36101407.jpeg",
             description:
               "A famous sweet delicacy especially popular during festivals.",
           },
@@ -230,21 +236,21 @@ const tourismData = {
           {
             name: "Camel Safari",
             image:
-              "https://images.unsplash.com/photo-1500534623283-312aade485b7",
+              "https://images.pexels.com/photos/35917901/pexels-photo-35917901.jpeg",
             description:
               "Enjoy a thrilling camel ride through the golden sand dunes of Jaisalmer.",
           },
           {
             name: "Fort Exploration",
             image:
-              "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d",
+              "https://images.pexels.com/photos/11750442/pexels-photo-11750442.jpeg",
             description:
               "Visit iconic forts such as Mehrangarh, Amer Fort, and Chittorgarh.",
           },
           {
             name: "Cultural Festival Experience",
             image:
-              "https://images.unsplash.com/photo-1513151233558-d860c5398176",
+              "https://images.pexels.com/photos/28588978/pexels-photo-28588978.jpeg",
             description:
               "Experience folk dances, music, traditional attire, and local fairs.",
           },
@@ -275,14 +281,14 @@ const tourismData = {
           {
             name: "Lonavala",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/12753026/pexels-photo-12753026.jpeg",
             description:
               "A popular hill station known for lush green valleys, waterfalls, and scenic viewpoints.",
           },
           {
             name: "Mahabaleshwar",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+              "https://images.pexels.com/photos/10369138/pexels-photo-10369138.jpeg",
             description:
               "A picturesque hill station famous for strawberry farms, lakes, and mountain views.",
           },
@@ -292,21 +298,21 @@ const tourismData = {
           {
             name: "Vada Pav",
             image:
-              "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+              "https://images.pexels.com/photos/17433352/pexels-photo-17433352.jpeg",
             description:
               "Known as the burger of Mumbai, Vada Pav is Maharashtra's most famous street food.",
           },
           {
             name: "Misal Pav",
             image:
-              "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+              "https://images.pexels.com/photos/17223835/pexels-photo-17223835.jpeg",
             description:
               "A spicy curry made with sprouts, topped with farsan and served with pav.",
           },
           {
             name: "Puran Poli",
             image:
-              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+              "https://images.pexels.com/photos/36209939/pexels-photo-36209939.jpeg",
             description:
               "A traditional sweet flatbread stuffed with jaggery and lentils.",
           },
@@ -316,21 +322,21 @@ const tourismData = {
           {
             name: "Beach Tourism",
             image:
-              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+              "https://images.pexels.com/photos/1047243/pexels-photo-1047243.jpeg",
             description:
               "Explore beautiful beaches like Alibaug, Ganpatipule, Tarkarli, and Kashid.",
           },
           {
             name: "Fort Trekking",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/4481330/pexels-photo-4481330.jpeg",
             description:
               "Trek famous forts like Raigad, Sinhagad, Rajgad, and Pratapgad.",
           },
           {
             name: "Wildlife Safari",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+              "https://images.pexels.com/photos/34050614/pexels-photo-34050614.jpeg",
             description:
               "Visit Tadoba National Park and enjoy thrilling tiger safaris.",
           },
@@ -354,21 +360,21 @@ const tourismData = {
           {
             name: "Srinagar",
             image:
-              "https://images.unsplash.com/photo-1595815771614-ade5019c1c6f",
+              "https://images.pexels.com/photos/6738359/pexels-photo-6738359.jpeg",
             description:
               "The summer capital of Jammu & Kashmir, famous for Dal Lake, Mughal Gardens, and houseboats.",
           },
           {
             name: "Gulmarg",
             image:
-              "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+              "https://images.pexels.com/photos/15232508/pexels-photo-15232508.jpeg",
             description:
               "A world-famous skiing destination known for snow activities and scenic beauty.",
           },
           {
             name: "Pahalgam",
             image:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+              "https://images.pexels.com/photos/14177070/pexels-photo-14177070.jpeg",
             description:
               "A picturesque valley surrounded by mountains, rivers, and lush green meadows.",
           },
@@ -377,20 +383,20 @@ const tourismData = {
         food: [
           {
             name: "Rogan Josh",
-            image: "https://images.unsplash.com/photo-1544025162-d76694265947",
+            image: "https://images.pexels.com/photos/18852556/pexels-photo-18852556.jpeg",
             description:
               "A flavorful Kashmiri lamb curry cooked with aromatic spices.",
           },
           {
             name: "Kahwa",
             image:
-              "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+              "https://images.pexels.com/photos/28643910/pexels-photo-28643910.jpeg",
             description:
               "A traditional Kashmiri green tea infused with saffron, almonds, and spices.",
           },
           {
             name: "Yakhni",
-            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            image: "https://images.pexels.com/photos/34159113/pexels-photo-34159113.jpeg",
             description:
               "A rich yogurt-based curry prepared with tender meat and mild spices.",
           },
@@ -400,21 +406,21 @@ const tourismData = {
           {
             name: "Skiing",
             image:
-              "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+              "https://images.pexels.com/photos/11156954/pexels-photo-11156954.jpeg",
             description:
               "Enjoy skiing and snowboarding adventures in Gulmarg during winter.",
           },
           {
             name: "Shikara Ride",
             image:
-              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+              "https://images.pexels.com/photos/27108537/pexels-photo-27108537.jpeg",
             description:
               "Take a peaceful Shikara boat ride on the famous Dal Lake.",
           },
           {
             name: "Camping & Trekking",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/1076093/pexels-photo-1076093.jpeg",
             description:
               "Explore scenic trekking routes and camp amidst the Himalayan beauty.",
           },
@@ -438,21 +444,21 @@ const tourismData = {
           {
             name: "Rishikesh",
             image:
-              "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23",
+              "https://images.pexels.com/photos/35185649/pexels-photo-35185649.png",
             description:
               "Known as the Yoga Capital of the World and famous for the Ganga River and adventure sports.",
           },
           {
             name: "Mussoorie",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+              "https://images.pexels.com/photos/2443872/pexels-photo-2443872.jpeg",
             description:
               "Popularly called the Queen of Hills, offering breathtaking mountain views.",
           },
           {
             name: "Nainital",
             image:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+              "https://images.pexels.com/photos/34792318/pexels-photo-34792318.jpeg",
             description:
               "A beautiful hill station famous for its lake, scenic beauty, and pleasant weather.",
           },
@@ -486,21 +492,21 @@ const tourismData = {
           {
             name: "River Rafting",
             image:
-              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+              "https://images.pexels.com/photos/7542627/pexels-photo-7542627.jpeg",
             description:
               "Experience thrilling white-water rafting in the Ganges at Rishikesh.",
           },
           {
             name: "Trekking",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/14162960/pexels-photo-14162960.jpeg",
             description:
               "Explore scenic Himalayan trekking routes and mountain trails.",
           },
           {
             name: "Camping",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/35726043/pexels-photo-35726043.jpeg",
             description:
               "Enjoy riverside and mountain camping under the stars.",
           },
@@ -538,7 +544,7 @@ const tourismData = {
           {
             name: "Karnataka",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+              "https://images.pexels.com/photos/29311096/pexels-photo-29311096.jpeg",
             description:
               "Famous for heritage sites, waterfalls, hill stations, and modern cities like Bengaluru.",
           },
@@ -548,7 +554,7 @@ const tourismData = {
           {
             name: "Dosa",
             image:
-              "https://images.unsplash.com/photo-1630383249896-424e482df921",
+              "https://images.pexels.com/photos/20422121/pexels-photo-20422121.jpeg",
             description:
               "A crispy rice and lentil crepe served with chutney and sambar.",
           },
@@ -562,7 +568,7 @@ const tourismData = {
           {
             name: "Appam",
             image:
-              "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0",
+              "https://images.pexels.com/photos/5410419/pexels-photo-5410419.jpeg",
             description:
               "A soft and fluffy rice pancake popular in Kerala cuisine.",
           },
@@ -572,21 +578,21 @@ const tourismData = {
           {
             name: "Temple Visit",
             image:
-              "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f",
+              "https://images.pexels.com/photos/37626302/pexels-photo-37626302.jpeg",
             description:
               "Explore ancient temples such as Meenakshi Temple and Brihadeeswarar Temple.",
           },
           {
             name: "Backwater Cruise",
             image:
-              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+              "https://images.pexels.com/photos/36647370/pexels-photo-36647370.jpeg",
             description:
               "Enjoy a peaceful houseboat ride through Kerala's famous backwaters.",
           },
           {
             name: "Wildlife Safari",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+              "https://images.pexels.com/photos/13257031/pexels-photo-13257031.jpeg",
             description:
               "Visit wildlife sanctuaries and national parks like Bandipur and Periyar.",
           },
@@ -701,14 +707,14 @@ const tourismData = {
           {
             name: "Darjeeling",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/35187617/pexels-photo-35187617.jpeg",
             description:
               "A beautiful hill station famous for tea gardens, toy trains, and Himalayan views.",
           },
           {
             name: "Sundarbans",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+              "https://images.pexels.com/photos/34582039/pexels-photo-34582039.jpeg",
             description:
               "The world's largest mangrove forest and home to the Royal Bengal Tiger.",
           },
@@ -718,20 +724,20 @@ const tourismData = {
           {
             name: "Rosogolla",
             image:
-              "https://images.unsplash.com/photo-1482049016688-2d3e1b311543",
+              "https://images.pexels.com/photos/35921862/pexels-photo-35921862.jpeg",
             description:
               "A famous Bengali sweet made from soft cottage cheese balls soaked in sugar syrup.",
           },
           {
             name: "Macher Jhol",
-            image: "https://images.unsplash.com/photo-1559847844-5315695dadae",
+            image: "https://images.pexels.com/photos/36090534/pexels-photo-36090534.jpeg",
             description:
               "A traditional Bengali fish curry cooked with vegetables and aromatic spices.",
           },
           {
             name: "Mishti Doi",
             image:
-              "https://images.unsplash.com/photo-1571212515416-fca88b972f83",
+              "https://images.pexels.com/photos/12295184/pexels-photo-12295184.jpeg",
             description:
               "A delicious sweetened yogurt that is a favorite Bengali dessert.",
           },
@@ -741,21 +747,21 @@ const tourismData = {
           {
             name: "Heritage Tourism",
             image:
-              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+              "https://images.pexels.com/photos/13057201/pexels-photo-13057201.jpeg",
             description:
               "Explore colonial architecture, museums, and historical landmarks of Kolkata.",
           },
           {
             name: "Tea Garden Visit",
             image:
-              "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+              "https://images.pexels.com/photos/103875/pexels-photo-103875.jpeg",
             description:
               "Visit the famous tea estates of Darjeeling and learn about tea production.",
           },
           {
             name: "Wildlife Safari",
             image:
-              "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
+              "https://images.pexels.com/photos/34991637/pexels-photo-34991637.jpeg",
             description:
               "Enjoy wildlife tours through the Sundarbans mangrove forests.",
           },
@@ -779,21 +785,21 @@ const tourismData = {
           {
             name: "Shimla",
             image:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+              "https://images.pexels.com/photos/5414576/pexels-photo-5414576.jpeg",
             description:
               "The capital of Himachal Pradesh, famous for colonial architecture, Mall Road, and scenic mountain views.",
           },
           {
             name: "Manali",
             image:
-              "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+              "https://images.pexels.com/photos/32464426/pexels-photo-32464426.jpeg",
             description:
               "A beautiful hill station known for snow activities, Solang Valley, and Rohtang Pass.",
           },
           {
             name: "Spiti Valley",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/19769094/pexels-photo-19769094.jpeg",
             description:
               "A cold desert mountain valley famous for monasteries, rugged landscapes, and adventure tourism.",
           },
@@ -803,19 +809,19 @@ const tourismData = {
           {
             name: "Siddu",
             image:
-              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+              "https://images.pexels.com/photos/10379166/pexels-photo-10379166.jpeg",
             description:
               "A traditional steamed bread stuffed with local ingredients and served with ghee.",
           },
           {
             name: "Madra",
-            image: "https://images.unsplash.com/photo-1547592180-85f173990554",
+            image: "https://images.pexels.com/photos/9287035/pexels-photo-9287035.jpeg",
             description:
               "A famous Himachali dish prepared with chickpeas and yogurt-based gravy.",
           },
           {
             name: "Thukpa",
-            image: "https://images.unsplash.com/photo-1555126634-323283e090fa",
+            image: "https://images.pexels.com/photos/7758254/pexels-photo-7758254.jpeg",
             description:
               "A delicious Tibetan noodle soup widely enjoyed in the Himalayan region.",
           },
@@ -825,21 +831,21 @@ const tourismData = {
           {
             name: "Trekking",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/28933429/pexels-photo-28933429.jpeg",
             description:
               "Explore scenic mountain trails including Hampta Pass, Triund, and Beas Kund.",
           },
           {
             name: "River Rafting",
             image:
-              "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+              "https://images.pexels.com/photos/37452357/pexels-photo-37452357.jpeg",
             description:
               "Enjoy thrilling rafting experiences in the Beas and Sutlej rivers.",
           },
           {
             name: "Skiing",
             image:
-              "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+              "https://images.pexels.com/photos/7846656/pexels-photo-7846656.jpeg",
             description:
               "Experience skiing and snowboarding in Solang Valley and Narkanda.",
           },
@@ -863,21 +869,21 @@ const tourismData = {
           {
             name: "Havelock Island",
             image:
-              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+              "https://images.pexels.com/photos/10756695/pexels-photo-10756695.jpeg",
             description:
               "One of the most popular islands known for scuba diving, snorkeling, and pristine beaches.",
           },
           {
             name: "Cellular Jail",
             image:
-              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+              "https://images.pexels.com/photos/19755206/pexels-photo-19755206.jpeg",
             description:
               "A historic colonial prison that played a significant role in India's freedom struggle.",
           },
           {
             name: "Radhanagar Beach",
             image:
-              "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+              "https://images.pexels.com/photos/36505898/pexels-photo-36505898.jpeg",
             description:
               "Awarded as one of Asia's best beaches, famous for its turquoise waters and stunning sunsets.",
           },
@@ -951,14 +957,14 @@ const tourismData = {
           {
             name: "Red Fort",
             image:
-              "https://images.unsplash.com/photo-1585136917237-3d6d4d3d0e2f",
+              "https://images.pexels.com/photos/14094276/pexels-photo-14094276.jpeg",
             description:
               "A UNESCO World Heritage Site built by Mughal Emperor Shah Jahan.",
           },
           {
             name: "Qutub Minar",
             image:
-              "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+              "https://images.pexels.com/photos/3881110/pexels-photo-3881110.jpeg",
             description:
               "The tallest brick minaret in the world and a masterpiece of Indo-Islamic architecture.",
           },
@@ -968,7 +974,7 @@ const tourismData = {
           {
             name: "Chole Bhature",
             image:
-              "https://images.unsplash.com/photo-1626132647523-66e2f6f4b8a0",
+              "https://images.pexels.com/photos/36388454/pexels-photo-36388454.jpeg",
             description:
               "A popular North Indian dish consisting of spicy chickpeas served with fried bread.",
           },
@@ -982,7 +988,7 @@ const tourismData = {
           {
             name: "Paratha",
             image:
-              "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+              "https://images.pexels.com/photos/33428723/pexels-photo-33428723.jpeg",
             description:
               "Stuffed flatbreads available in a variety of flavors at Chandni Chowk.",
           },
@@ -991,21 +997,21 @@ const tourismData = {
         activities: [
           {
             name: "Street Food Tour",
-            image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+            image: "https://images.pexels.com/photos/36379351/pexels-photo-36379351.jpeg",
             description:
               "Explore Delhi's famous street food hubs including Chandni Chowk and Connaught Place.",
           },
           {
             name: "Historical Visit",
             image:
-              "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+              "https://images.pexels.com/photos/8449712/pexels-photo-8449712.jpeg",
             description:
               "Visit iconic historical sites such as Red Fort, Humayun's Tomb, and Qutub Minar.",
           },
           {
             name: "Shopping Experience",
             image:
-              "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+              "https://images.pexels.com/photos/30319869/pexels-photo-30319869.jpeg",
             description:
               "Shop at Sarojini Nagar, Janpath, Chandni Chowk, and modern malls.",
           },
@@ -1029,21 +1035,21 @@ const tourismData = {
           {
             name: "Pangong Lake",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/29496081/pexels-photo-29496081.jpeg",
             description:
               "A stunning high-altitude lake known for its changing shades of blue and scenic beauty.",
           },
           {
             name: "Leh Palace",
             image:
-              "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+              "https://images.pexels.com/photos/6650443/pexels-photo-6650443.jpeg",
             description:
               "A historic royal palace offering panoramic views of Leh town and surrounding mountains.",
           },
           {
             name: "Nubra Valley",
             image:
-              "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+              "https://images.pexels.com/photos/17033858/pexels-photo-17033858.jpeg",
             description:
               "A beautiful valley famous for sand dunes, double-humped camels, and breathtaking landscapes.",
           },
@@ -1053,7 +1059,7 @@ const tourismData = {
           {
             name: "Momos",
             image:
-              "https://images.unsplash.com/photo-1626804475297-41608ea09aeb",
+              "https://images.pexels.com/photos/28445589/pexels-photo-28445589.jpeg",
             description:
               "Traditional Tibetan-style dumplings filled with vegetables or meat.",
           },
@@ -1075,14 +1081,14 @@ const tourismData = {
         activities: [
           {
             name: "Bike Riding",
-            image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+            image: "https://images.pexels.com/photos/29303162/pexels-photo-29303162.jpeg",
             description:
               "Experience thrilling bike expeditions on some of the world's highest motorable roads.",
           },
           {
             name: "Camping",
             image:
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+              "https://images.pexels.com/photos/32793596/pexels-photo-32793596.jpeg",
             description:
               "Enjoy unforgettable nights under the stars near Pangong Lake and Nubra Valley.",
           },
@@ -1947,19 +1953,19 @@ const tourismData = {
           {
             name: "Kochi",
             image:
-              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+              "https://images.pexels.com/photos/27833051/pexels-photo-27833051.jpeg",
             description: "Major cultural celebrations during Onam.",
           },
           {
             name: "Alleppey",
             image:
-              "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+              "https://images.pexels.com/photos/35152825/pexels-photo-35152825.jpeg",
             description: "Famous for traditional snake boat races.",
           },
           {
             name: "Thrissur",
             image:
-              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+              "https://images.pexels.com/photos/32364201/pexels-photo-32364201.jpeg",
             description: "Known for cultural events and festive celebrations.",
           },
         ],
@@ -1970,13 +1976,13 @@ const tourismData = {
           {
             name: "Onam Sadya",
             image:
-              "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600",
+              "https://images.pexels.com/photos/5410418/pexels-photo-5410418.jpeg",
             description: "Traditional feast served on banana leaves.",
           },
           {
             name: "Payasam",
             image:
-              "https://images.unsplash.com/photo-1630409346824-4f0e7b080087?w=600",
+              "https://images.pexels.com/photos/31109623/pexels-photo-31109623.jpeg",
             description: "Popular sweet dessert prepared during Onam.",
           },
         ],
@@ -1985,14 +1991,14 @@ const tourismData = {
           {
             name: "Boat Race",
             image:
-              "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+              "https://images.pexels.com/photos/8377242/pexels-photo-8377242.jpeg",
             description:
               "Traditional snake boat races attract thousands of visitors.",
           },
           {
             name: "Flower Decoration",
             image:
-              "https://images.unsplash.com/photo-1604423043492-4135c5f7c6b6?w=600",
+              "https://images.pexels.com/photos/13752953/pexels-photo-13752953.jpeg",
             description: "Beautiful floral rangoli known as Pookalam.",
           },
         ],
@@ -2015,13 +2021,13 @@ const tourismData = {
           {
             name: "Guwahati",
             image:
-              "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600",
+              "https://images.pexels.com/photos/12280109/pexels-photo-12280109.jpeg",
             description: "Major Bihu celebrations with music and dance.",
           },
           {
             name: "Majuli",
             image:
-              "https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=600",
+              "https://images.pexels.com/photos/7191012/pexels-photo-7191012.jpeg",
             description:
               "World's largest river island known for cultural festivities.",
           },
@@ -2033,13 +2039,13 @@ const tourismData = {
           {
             name: "Pitha",
             image:
-              "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600",
+              "https://images.pexels.com/photos/32402081/pexels-photo-32402081.jpeg",
             description: "Traditional Assamese rice cake.",
           },
           {
             name: "Laru",
             image:
-              "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600",
+              "https://images.pexels.com/photos/7986616/pexels-photo-7986616.jpeg",
             description: "Popular sweet made during Bihu celebrations.",
           },
         ],
@@ -2048,19 +2054,19 @@ const tourismData = {
           {
             name: "Folk Dance",
             image:
-              "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600",
+              "https://images.pexels.com/photos/19347246/pexels-photo-19347246.jpeg",
             description: "Traditional Bihu dance performances.",
           },
           {
             name: "Music",
             image:
-              "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+              "https://images.pexels.com/photos/37090335/pexels-photo-37090335.jpeg",
             description: "Celebrations include traditional Assamese music.",
           },
           {
             name: "Cultural Events",
             image:
-              "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600",
+              "https://images.pexels.com/photos/33817828/pexels-photo-33817828.jpeg",
             description:
               "Festivals feature community gatherings and performances.",
           },
