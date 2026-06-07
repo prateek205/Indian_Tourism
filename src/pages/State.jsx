@@ -35,12 +35,9 @@ const State = () => {
             className="group relative h-[500px] overflow-hidden rounded-[32px] cursor-pointer shadow-2xl"
           >
             {/* Video */}
-            <video
-              src={item.video}
-              autoPlay
-              muted
-              loop
-              playsInline
+            <img
+              src={item.images}
+              alt={item.name}
               className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
             />
 
