@@ -3,7 +3,7 @@ const tourismData = {
     {
       id: 1,
       title: "Assam Tourism",
-      video: "https://www.pexels.com/download/video/31646023/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780830801/31646023_ny36ky.mp4",
       category: ["Mountain", "WildLife", "Adventure"],
 
       details: {
@@ -89,7 +89,7 @@ const tourismData = {
     {
       id: 2,
       title: "Uttar Pradesh Tourism",
-      video: "https://www.pexels.com/download/video/37129767/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831778/37129767_yqvxzd.mp4",
       category: ["Spiritual", "Heritage"],
 
       details: {
@@ -175,7 +175,7 @@ const tourismData = {
     {
       id: 3,
       title: "Rajasthan Tourism",
-      video: "https://www.pexels.com/download/video/18983874/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831859/18983874_kalmpl.mp4",
       category: ["Heritage", "Adventure"],
 
       details: {
@@ -261,7 +261,7 @@ const tourismData = {
     {
       id: 4,
       title: "Maharashtra Tourism",
-      video: "https://www.pexels.com/download/video/31000790/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831984/31000790_wubnop.mp4",
       category: ["Beach", "Adventure", "Heritage"],
 
       details: {
@@ -347,7 +347,7 @@ const tourismData = {
     {
       id: 5,
       title: "Jammu & Kashmir Tourism",
-      video: "https://www.pexels.com/download/video/26244070/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832029/26244070_ib6jrk.mp4",
       category: ["Mountain", "Adventure"],
 
       details: {
@@ -431,7 +431,7 @@ const tourismData = {
     {
       id: 6,
       title: "Uttarakhand Tourism",
-      video: "https://www.pexels.com/download/video/6595717/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832370/6595717_bjgxrg.mp4",
       category: ["Mountain", "Spiritual", "Adventure"],
 
       details: {
@@ -517,7 +517,7 @@ const tourismData = {
     {
       id: 7,
       title: "South India Tourism",
-      video: "https://www.pexels.com/download/video/18560011/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832408/18560011_mfwmns.mp4",
       category: ["Beach", "WildLife", "Spiritual"],
 
       details: {
@@ -602,7 +602,7 @@ const tourismData = {
     {
       id: 8,
       title: "Kerala Tourism",
-      video: "https://www.pexels.com/download/video/35097638/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832441/35097638_qmaiyf.mp4",
 
       category: ["Beach", "Nature", "Backwaters"],
 
@@ -686,7 +686,7 @@ const tourismData = {
     {
       id: 9,
       title: "West Bengal Tourism",
-      video: "https://www.pexels.com/download/video/27425487/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832470/27425487_idozul.mp4",
 
       category: ["Heritage", "Hill Station", "Culture"],
 
@@ -771,7 +771,7 @@ const tourismData = {
     {
       id: 10,
       title: "Himachal Pradesh Tourism",
-      video: "https://www.pexels.com/download/video/29979281/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832505/29979281_f5jxfs.mp4",
 
       category: ["Mountain", "Adventure", "Hill Station"],
 
@@ -855,7 +855,7 @@ const tourismData = {
     {
       id: 11,
       title: "Andaman & Nicobar Tourism",
-      video: "https://www.pexels.com/download/video/31454292/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832539/31454292_z9tgpz.mp4",
 
       category: ["Beach", "Adventure", "Island"],
 
@@ -936,7 +936,7 @@ const tourismData = {
     {
       id: 12,
       title: "Delhi Tourism",
-      video: "https://www.pexels.com/download/video/20794146/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832572/20794146_zpe4ki.mp4",
 
       category: ["Heritage", "Food", "Culture"],
 
@@ -1021,7 +1021,7 @@ const tourismData = {
     {
       id: 13,
       title: "Ladakh Tourism",
-      video: "https://www.pexels.com/download/video/17982168/",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832612/17982168_f5qnt5.mp4",
 
       category: ["Mountain", "Adventure", "Culture"],
 
