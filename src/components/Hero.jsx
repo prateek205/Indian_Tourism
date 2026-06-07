@@ -37,6 +37,7 @@ const Hero = () => {
               muted
               loop
               playsInline
+              preload="metadata"
               className="w-full h-screen object-cover scale-100"
             >
               <source src={item.video} type="video/mp4" />
@@ -49,8 +50,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20 z-10"></div>
 
       {/* Content */}
-      <div className="absolute inset-0 z-20 flex items-center px-6 md:px-20">
-        <div className="max-w-3xl backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-2xl">
+      <div className="absolute top-24 inset-0 z-10 flex items-center px-6 md:px-20">
+        <div className="max-w-3xl backdrop-blur-sm bg-white/10 border border-white/20 rounded-3xl p-8 md:p-12 shadow-2xl">
           {/* Badge */}
           <span className="inline-block px-4 py-2 mb-5 rounded-full bg-orange-500/20 text-orange-300 border border-orange-400/30 text-sm tracking-widest uppercase">
             Incredible India
