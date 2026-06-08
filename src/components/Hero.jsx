@@ -18,7 +18,7 @@ const Hero = () => {
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{
-          delay: 10000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         loop={tourism.length > 1}
