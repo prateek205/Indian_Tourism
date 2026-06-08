@@ -3,7 +3,7 @@ const tourismData = {
     {
       id: 1,
       title: "Assam Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780830801/31646023_ny36ky.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780830801/31646023_ny36ky.mp4",
       images: "https://images.pexels.com/photos/35079186/pexels-photo-35079186.jpeg",
       category: ["Mountain", "WildLife", "Adventure"],
 
@@ -90,7 +90,7 @@ const tourismData = {
     {
       id: 2,
       title: "Uttar Pradesh Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831778/37129767_yqvxzd.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780831778/37129767_yqvxzd.mp4",
       images:"https://images.pexels.com/photos/31149145/pexels-photo-31149145.jpeg",
       category: ["Spiritual", "Heritage"],
 
@@ -177,7 +177,7 @@ const tourismData = {
     {
       id: 3,
       title: "Rajasthan Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831859/18983874_kalmpl.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780831859/18983874_kalmpl.mp4",
       images:"https://images.pexels.com/photos/18526645/pexels-photo-18526645.jpeg",
       category: ["Heritage", "Adventure"],
 
@@ -264,7 +264,7 @@ const tourismData = {
     {
       id: 4,
       title: "Maharashtra Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780831984/31000790_wubnop.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780831984/31000790_wubnop.mp4",
       images:"https://images.pexels.com/photos/35709783/pexels-photo-35709783.jpeg",
       category: ["Beach", "Adventure", "Heritage"],
 
@@ -351,7 +351,7 @@ const tourismData = {
     {
       id: 5,
       title: "Jammu & Kashmir Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832029/26244070_ib6jrk.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832029/26244070_ib6jrk.mp4",
       images:"https://images.pexels.com/photos/25786554/pexels-photo-25786554.jpeg",
       category: ["Mountain", "Adventure"],
 
@@ -436,7 +436,7 @@ const tourismData = {
     {
       id: 6,
       title: "Uttarakhand Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832370/6595717_bjgxrg.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832370/6595717_bjgxrg.mp4",
       images:"https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg",
       category: ["Mountain", "Spiritual", "Adventure"],
 
@@ -523,7 +523,7 @@ const tourismData = {
     {
       id: 7,
       title: "South India Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832408/18560011_mfwmns.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832408/18560011_mfwmns.mp4",
       images:"https://images.pexels.com/photos/18271951/pexels-photo-18271951.jpeg",
       category: ["Beach", "WildLife", "Spiritual"],
 
@@ -609,7 +609,7 @@ const tourismData = {
     {
       id: 8,
       title: "Kerala Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832441/35097638_qmaiyf.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832441/35097638_qmaiyf.mp4",
       images:"https://images.pexels.com/photos/5374224/pexels-photo-5374224.jpeg",
       category: ["Beach", "Nature", "Backwaters"],
 
@@ -693,7 +693,7 @@ const tourismData = {
     {
       id: 9,
       title: "West Bengal Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832470/27425487_idozul.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832470/27425487_idozul.mp4",
       images:"https://images.pexels.com/photos/35393276/pexels-photo-35393276.jpeg",
       category: ["Heritage", "Hill Station", "Culture"],
 
@@ -778,7 +778,7 @@ const tourismData = {
     {
       id: 10,
       title: "Himachal Pradesh Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832505/29979281_f5jxfs.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832505/29979281_f5jxfs.mp4",
       images:"https://images.pexels.com/photos/30550229/pexels-photo-30550229.jpeg",
       category: ["Mountain", "Adventure", "Hill Station"],
 
@@ -862,7 +862,7 @@ const tourismData = {
     {
       id: 11,
       title: "Andaman & Nicobar Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832539/31454292_z9tgpz.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832539/31454292_z9tgpz.mp4",
       images:"https://images.pexels.com/photos/14313849/pexels-photo-14313849.jpeg",
       category: ["Beach", "Adventure", "Island"],
 
@@ -943,7 +943,7 @@ const tourismData = {
     {
       id: 12,
       title: "Delhi Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832572/20794146_zpe4ki.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832572/20794146_zpe4ki.mp4",
       images:"https://images.pexels.com/photos/6472566/pexels-photo-6472566.jpeg",
       category: ["Heritage", "Food", "Culture"],
 
@@ -1028,7 +1028,7 @@ const tourismData = {
     {
       id: 13,
       title: "Ladakh Tourism",
-      video: "https://res.cloudinary.com/dpjns6zny/video/upload/v1780832612/17982168_f5qnt5.mp4",
+      video: "https://res.cloudinary.com/dpjns6zny/video/upload/q_auto,f_auto,fl_lossy,w_960/v1780832612/17982168_f5qnt5.mp4",
       images:"https://images.pexels.com/photos/14477905/pexels-photo-14477905.jpeg",
       category: ["Mountain", "Adventure", "Culture"],
 
